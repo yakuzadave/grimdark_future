@@ -1,0 +1,35 @@
+<style>
+  h2 {
+    color: #333;
+    font-size: 1.5em;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.5em;
+  }
+</style>
+
+<h1>Units by Army</h1>
+<div id="content">
+  {{#each armies}}
+    <h2>{{@key}}</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Unit Name</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each this}}
+          <tr>
+            <td>{{this}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  {{/each}}
+</div>
