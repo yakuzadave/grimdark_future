@@ -22,11 +22,8 @@
         "express-handlebars": "^7.0.7",
         "@fastify/reply-from": "^9.1.0"
     },
-    "engines": {
-        "node": "14.x"
-    },
     "repository": {
-        "url": "https://glitch.com/edit/#!/glitch-hello-node"
+        "url": "https://github.com/grimdarkmanager"
     },
     "license": "MIT",
     "keywords": [
