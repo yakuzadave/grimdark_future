@@ -1,0 +1,4010 @@
+{
+    "uid": "BKi_hJaJflN8ZorH",
+    "enabledGameSystems": [
+        2,
+        3
+    ],
+    "name": "Jackals",
+    "hint": "",
+    "background": "Jackals are species of aliens who resemble humanoid canids, and use technology built from salvaged scrap. Without access to advanced weapons or vehicles, they rely on ambush and ferocity in close combat to win. \n\nThe Jackals were a collection of nomadic tribes until they discovered the wreckage of alien ships on their planet. Soon after, they made contact with the other species of Sirius, and were suddenly thrust from tribal hunters into the space age. Now the Jackals’ way of life has been forever changed, as they have begun to migrate to the stars.",
+    "backgroundFull": "The Jackals’ home world was long left uncharted due to the unique properties of their home system’s sun. Radiation from their sun reflected from the atmosphere interfered with the electronic scanners of vessels passing nearby. At a distance, it caused the scanners to detect large stores of rare elements which are used to stabilize wormholes, but ships approaching closer have their scanners and electronic systems short out completely. This has resulted in a graveyard of ships floating above the Jackals’ home world, which occasionally fall out of orbit onto the planet’s surface.\n\nThe Jackals were, until recently, made up of tribes of hunter-gatherers who migrated from oasis to oasis after their prey. This changed when the Jackals began to discover wrecked ships on their home world. The first ships were from the Robot Legion, whose pilots had been deactivated along with their ships. These wrecks gradually became a network of trading posts and cities for the wandering Jackals, and the weapons and technology contained within were salvaged and traded. The Jackals began to chase falling ships, hoping to get to the salvage first.\n\nEventually, the Jackals began to meet and save survivors. These survivors were taken in with the tribes, and taught the Jackals about the wider galaxy. Eventually, jump gates were established on the planet, allowing safe travel to and from their world. Jackals began working with outsiders, who valued their survival skills, tenacity and inventiveness for use as scouts and mercenaries. Many Jackals view travelling off world as a continuation of their traditional nomadic life-style.\n\nWhile some might view the Jackals as backward for their traditions, these traditions have proven adaptable and continue to unite them even as they spread through the sector. The Jackals have proven their ability to quickly adapt both new ideas and technologies into their way of life, but only time will tell whether their culture will survive the shock of galactic life. \n\nHow will you find your way among the stars?",
+    "armyWideRule": {},
+    "units": [
+        {
+            "id": "XhgyXd9",
+            "cost": 35,
+            "name": "Veteran",
+            "size": 1,
+            "defense": 5,
+            "quality": 4,
+            "upgrades": [
+                "A1"
+            ],
+            "equipment": [
+                {
+                    "id": "2-m2p",
+                    "name": "CCW",
+                    "label": "CCW",
+                    "attacks": 1,
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "ZXlHw",
+                    "name": "Scrap Rifle",
+                    "label": "Scrap Rifle",
+                    "range": 24,
+                    "attacks": 1,
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "hero",
+                    "name": "Hero",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "3"
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "8LCt3JN",
+            "cost": 140,
+            "name": "Nomads",
+            "size": 10,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "B1",
+                "cbIZR"
+            ],
+            "equipment": [
+                {
+                    "id": "Dp50x",
+                    "name": "CCWs",
+                    "label": "CCWs",
+                    "attacks": 1,
+                    "specialRules": [],
+                    "count": 10,
+                    "originalCount": 10,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "dKZu4",
+                    "name": "Scrap Rifles",
+                    "label": "Scrap Rifles",
+                    "range": 24,
+                    "attacks": 1,
+                    "specialRules": [],
+                    "count": 10,
+                    "originalCount": 10,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "i38ZXSB",
+            "cost": 95,
+            "name": "Stalkers",
+            "size": 5,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "C1",
+                "j3Xwf"
+            ],
+            "equipment": [
+                {
+                    "id": "JCNlP",
+                    "name": "CCWs",
+                    "count": 10,
+                    "label": "CCWs",
+                    "attacks": 1,
+                    "specialRules": [],
+                    "originalCount": 10,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "uF7noGn",
+            "cost": 120,
+            "name": "Elites",
+            "size": 5,
+            "defense": 4,
+            "quality": 4,
+            "upgrades": [
+                "E1",
+                "cbIZR"
+            ],
+            "equipment": [
+                {
+                    "id": "BDPfP",
+                    "name": "CCWs",
+                    "label": "CCWs",
+                    "attacks": 1,
+                    "specialRules": [],
+                    "count": 5,
+                    "originalCount": 5,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "g6Gp8",
+                    "name": "Energy Rifles",
+                    "label": "Energy Rifles",
+                    "range": 24,
+                    "attacks": 1,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        }
+                    ],
+                    "count": 5,
+                    "originalCount": 5,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "relentless",
+                    "name": "Relentless",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "LutTMHw",
+            "cost": 160,
+            "name": "Vultures",
+            "size": 5,
+            "defense": 4,
+            "quality": 4,
+            "upgrades": [
+                "F1"
+            ],
+            "equipment": [
+                {
+                    "id": "FI5WH",
+                    "name": "CCWs",
+                    "label": "CCWs",
+                    "attacks": 2,
+                    "specialRules": [],
+                    "count": 5,
+                    "originalCount": 5,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "4YDBY",
+                    "name": "Scrap Pistols",
+                    "label": "Scrap Pistols",
+                    "range": 12,
+                    "attacks": 1,
+                    "specialRules": [],
+                    "count": 5,
+                    "originalCount": 5,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "ambush",
+                    "name": "Ambush",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "flying",
+                    "name": "Flying",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "stinger-bombs",
+                    "name": "Stinger Bombs",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "ARMiAVY",
+            "cost": 125,
+            "name": "Trackers",
+            "size": 3,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "D1",
+                "cbIZR"
+            ],
+            "equipment": [
+                {
+                    "id": "plS0y",
+                    "name": "CCWs",
+                    "label": "CCWs",
+                    "attacks": 1,
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "E8YzG",
+                    "name": "Hunting Rifles",
+                    "label": "Hunting Rifles",
+                    "range": 24,
+                    "attacks": 1,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "sniper",
+                            "name": "Sniper",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 3,
+                    "originalCount": 3,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "charged-ammo",
+                    "name": "Charged Ammo",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "VEbHNRI",
+            "cost": 85,
+            "name": "Hounds",
+            "size": 5,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "G1"
+            ],
+            "equipment": [
+                {
+                    "id": "UgZfr",
+                    "name": "Claws",
+                    "label": "Claws",
+                    "attacks": 2,
+                    "specialRules": [],
+                    "count": 5,
+                    "originalCount": 5,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "1znOU_R",
+            "cost": 155,
+            "name": "Beast Riders",
+            "size": 3,
+            "defense": 4,
+            "quality": 5,
+            "upgrades": [
+                "H1"
+            ],
+            "equipment": [
+                {
+                    "id": "YpfWU",
+                    "name": "Claws",
+                    "label": "Claws",
+                    "attacks": 3,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        }
+                    ],
+                    "count": 3,
+                    "originalCount": 3,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "4ord9",
+                    "label": "Explosive Spears",
+                    "attacks": 1,
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        }
+                    ],
+                    "name": "Explosive Spears",
+                    "count": 3,
+                    "originalCount": 3,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "bounding",
+                    "name": "Bounding",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "3"
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "0BlDrtr",
+            "cost": 310,
+            "name": "Great Beast",
+            "size": 1,
+            "defense": 2,
+            "quality": 4,
+            "upgrades": [
+                "I1"
+            ],
+            "equipment": [
+                {
+                    "id": "Ltw77",
+                    "name": "Massive Jaws",
+                    "label": "Massive Jaws",
+                    "attacks": 6,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "4",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "gFBix",
+                    "name": "Stomp",
+                    "label": "Stomp",
+                    "attacks": 4,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "bounding",
+                    "name": "Bounding",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "fear",
+                    "name": "Fear",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "12"
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "RB1dBZj",
+            "cost": 645,
+            "name": "Long Neck",
+            "size": 1,
+            "defense": 2,
+            "quality": 4,
+            "upgrades": [
+                "J1"
+            ],
+            "equipment": [
+                {
+                    "id": "VSs36",
+                    "name": "Heavy Rail Cannon",
+                    "label": "Heavy Rail Cannon",
+                    "range": 30,
+                    "attacks": 6,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        },
+                        {
+                            "key": "deadly",
+                            "name": "Deadly",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "lock-on",
+                            "name": "Lock-On",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "LAI4q",
+                    "name": "Heavy Tusks",
+                    "label": "Heavy Tusks",
+                    "attacks": 6,
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "5NXyJ",
+                    "name": "Stomp",
+                    "label": "Stomp",
+                    "attacks": 6,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "fear",
+                    "name": "Fear",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "18"
+                }
+            ],
+            "disabledUpgradeSections": []
+        },
+        {
+            "id": "htslYRn",
+            "cost": 980,
+            "name": "Mastodon",
+            "size": 1,
+            "defense": 2,
+            "quality": 4,
+            "upgrades": [
+                "K1"
+            ],
+            "equipment": [
+                {
+                    "id": "5j0ZK",
+                    "name": "Great Tusks",
+                    "label": "Great Tusks",
+                    "attacks": 8,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "4",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "BoNhm",
+                    "name": "Scatter Cannon",
+                    "label": "Scatter Cannon",
+                    "range": 30,
+                    "attacks": 6,
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        },
+                        {
+                            "key": "indirect",
+                            "name": "Indirect",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "nasYA",
+                    "name": "Pipe Rockets",
+                    "label": "Pipe Rockets",
+                    "range": 24,
+                    "attacks": 6,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                },
+                {
+                    "id": "Cn3cU",
+                    "name": "Stomp",
+                    "label": "Stomp",
+                    "attacks": 8,
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "type": "ArmyBookWeapon"
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "carnivore",
+                    "name": "Carnivore",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "fear",
+                    "name": "Fear",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "24"
+                },
+                {
+                    "key": "transport",
+                    "name": "Transport",
+                    "rating": "21",
+                    "additional": false
+                }
+            ],
+            "disabledUpgradeSections": []
+        }
+    ],
+    "upgradePackages": [
+        {
+            "uid": "A1",
+            "hint": "Veteran",
+            "sections": [
+                {
+                    "id": "JiFdMNd",
+                    "uid": "foLSUGF",
+                    "type": "replace",
+                    "label": "Replace Scrap Rifle and CCW",
+                    "options": [
+                        {
+                            "uid": "WCN_Osg",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Scrap Pistol",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Scrap Pistol (12\", A1)",
+                                    "range": 12,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [],
+                                    "count": 1
+                                },
+                                {
+                                    "name": "CCW",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "CCW (A2)",
+                                    "range": 0,
+                                    "attacks": 2,
+                                    "condition": "",
+                                    "specialRules": [],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "CCW (A2), Scrap Pistol (12\", A1)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "foLSUGF",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "1.000",
+                                    "newCostRounded": 0
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "WCN_Osg"
+                        },
+                        {
+                            "uid": "Q3uGZdY",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Explosive Spear",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Explosive Spear (A1, Blast(3), AP(1))",
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "blast",
+                                            "name": "Blast",
+                                            "type": "ArmyBookRule",
+                                            "label": "Blast(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        },
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Explosive Spear (A1, Blast(3), AP(1))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "foLSUGF",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "4.000",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "Q3uGZdY"
+                        },
+                        {
+                            "uid": "W714SZq",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Goad-Spear",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Goad-Spear (A3, Rending)",
+                                    "attacks": 3,
+                                    "specialRules": [
+                                        {
+                                            "key": "rending",
+                                            "name": "Rending",
+                                            "type": "ArmyBookRule",
+                                            "label": "Rending",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Goad-Spear (A3, Rending)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "foLSUGF",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "5.450",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "W714SZq"
+                        },
+                        {
+                            "uid": "pEzTUFc",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Harpoon",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Harpoon (A1, AP(2), Deadly(3))",
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Harpoon (A1, AP(2), Deadly(3))",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "foLSUGF",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "8.000",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "pEzTUFc"
+                        }
+                    ],
+                    "parentPackageUid": "A1",
+                    "replaceWhat": [
+                        "Scrap Rifle",
+                        "CCW"
+                    ]
+                },
+                {
+                    "id": "2AYHFOC",
+                    "uid": "Z5KxjCC",
+                    "type": "replace",
+                    "label": "Replace Scrap Pistol",
+                    "options": [
+                        {
+                            "uid": "EPFV886",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Shotgun",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Shotgun (12”, A2, AP(1))",
+                                    "range": 12,
+                                    "attacks": 2,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Shotgun (12”, A2, AP(1))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "Z5KxjCC",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "5.400",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "EPFV886"
+                        },
+                        {
+                            "uid": "_ulAkQj",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Energy Rifle",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Energy Rifle (24\", A1, AP(1))",
+                                    "range": 24,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Energy Rifle (24\", A1, AP(1))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "Z5KxjCC",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "5.400",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "_ulAkQj"
+                        },
+                        {
+                            "uid": "NPbACac",
+                            "cost": 25,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Hunting Rifle",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Hunting Rifle (24”, A1, AP(1), Sniper)",
+                                    "range": 24,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        },
+                                        {
+                                            "key": "sniper",
+                                            "name": "Sniper",
+                                            "type": "ArmyBookRule",
+                                            "label": "Sniper",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Hunting Rifle (24”, A1, AP(1), Sniper)",
+                            "proposedCost": 25,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "Z5KxjCC",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "22.200",
+                                    "newCostRounded": 25
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "NPbACac"
+                        }
+                    ],
+                    "parentPackageUid": "A1",
+                    "replaceWhat": [
+                        "Scrap Pistol"
+                    ]
+                },
+                {
+                    "id": "j_A1zJJ",
+                    "uid": "A4tTbA_",
+                    "type": "replace",
+                    "label": "Replace any CCW",
+                    "options": [
+                        {
+                            "uid": "eF217mx",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Scrap Club",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Scrap Club (A1, Blast(3))",
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "blast",
+                                            "name": "Blast",
+                                            "type": "ArmyBookRule",
+                                            "label": "Blast(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Scrap Club (A1, Blast(3))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "A4tTbA_",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "6.000",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "eF217mx"
+                        },
+                        {
+                            "uid": "4rWkuUp",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Junk Sword",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Junk Sword (A2, AP(1), Rending)",
+                                    "attacks": 2,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        },
+                                        {
+                                            "key": "rending",
+                                            "name": "Rending",
+                                            "type": "ArmyBookRule",
+                                            "label": "Rending",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Junk Sword (A2, AP(1), Rending)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "A4tTbA_",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "8.460",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "4rWkuUp"
+                        },
+                        {
+                            "uid": "g5a5mtt",
+                            "cost": 15,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Jagged Hook",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+                            "proposedCost": 15,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "A4tTbA_",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "14.000",
+                                    "newCostRounded": 15
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "g5a5mtt"
+                        },
+                        {
+                            "uid": "Ga3fdiz",
+                            "cost": 15,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Claw Hand",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Claw Hand (A2, AP(4))",
+                                    "attacks": 2,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Claw Hand (A2, AP(4))",
+                            "proposedCost": 15,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "A4tTbA_",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "14.400",
+                                    "newCostRounded": 15
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "Ga3fdiz"
+                        }
+                    ],
+                    "parentPackageUid": "A1",
+                    "affects": "any",
+                    "replaceWhat": [
+                        "CCW"
+                    ]
+                },
+                {
+                    "id": "RC9Vr6u",
+                    "uid": "FMTQhAH",
+                    "type": "upgrade",
+                    "label": "Upgrade with one",
+                    "options": [
+                        {
+                            "uid": "bdyRr",
+                            "cost": 20,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Hunt Master",
+                                    "type": "ArmyBookItem",
+                                    "label": "Hunt Master (Prowl)",
+                                    "content": [
+                                        {
+                                            "key": "prowl",
+                                            "name": "Prowl",
+                                            "type": "ArmyBookRule",
+                                            "label": "Prowl",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Hunt Master (Prowl)",
+                            "proposedCost": 20,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "FMTQhAH",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "20.000",
+                                    "newCostRounded": 20
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "bdyRr"
+                        },
+                        {
+                            "uid": "9EprzTp",
+                            "cost": 25,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Shaman",
+                                    "type": "ArmyBookItem",
+                                    "label": "Shaman (Psychic(1))",
+                                    "content": [
+                                        {
+                                            "key": "psychic",
+                                            "name": "Psychic",
+                                            "type": "ArmyBookRule",
+                                            "label": "Psychic(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Shaman (Psychic(1))",
+                            "proposedCost": 25,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "FMTQhAH",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "25.000",
+                                    "newCostRounded": 25
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "9EprzTp"
+                        },
+                        {
+                            "uid": "aawWPkW",
+                            "cost": 30,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Warlord",
+                                    "type": "ArmyBookItem",
+                                    "label": "Warlord (Martial Prowess)",
+                                    "content": [
+                                        {
+                                            "key": "martial-prowess",
+                                            "name": "Martial Prowess",
+                                            "type": "ArmyBookRule",
+                                            "label": "Martial Prowess",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Warlord (Martial Prowess)",
+                            "proposedCost": 30,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "FMTQhAH",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "30.000",
+                                    "newCostRounded": 30
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "aawWPkW"
+                        },
+                        {
+                            "uid": "gljpKEx",
+                            "cost": 45,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Merchant",
+                                    "type": "ArmyBookItem",
+                                    "label": "Merchant (Scrap Ammo)",
+                                    "content": [
+                                        {
+                                            "key": "scrap-ammo",
+                                            "name": "Scrap Ammo",
+                                            "type": "ArmyBookRule",
+                                            "label": "Scrap Ammo",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Merchant (Scrap Ammo)",
+                            "proposedCost": 45,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "FMTQhAH",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "45.000",
+                                    "newCostRounded": 45
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "gljpKEx"
+                        },
+                        {
+                            "uid": "TICIS8y",
+                            "cost": 55,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Pathfinder",
+                                    "type": "ArmyBookItem",
+                                    "label": "Pathfinder (Hidden Route)",
+                                    "content": [
+                                        {
+                                            "key": "hidden-route",
+                                            "name": "Hidden Route",
+                                            "type": "ArmyBookRule",
+                                            "label": "Hidden Route",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Pathfinder (Hidden Route)",
+                            "proposedCost": 55,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "FMTQhAH",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "55.000",
+                                    "newCostRounded": 55
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "TICIS8y"
+                        }
+                    ],
+                    "isHeroUpgrade": true,
+                    "parentPackageUid": "A1",
+                    "select": 1
+                },
+                {
+                    "id": "qsO8aEk",
+                    "uid": "fPzGtio",
+                    "type": "upgrade",
+                    "label": "Upgrade with one",
+                    "options": [
+                        {
+                            "uid": "-5oFCrw",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Satellite Backpack",
+                                    "type": "ArmyBookItem",
+                                    "label": "Satellite Backpack (Beacon)",
+                                    "content": [
+                                        {
+                                            "key": "beacon",
+                                            "name": "Beacon",
+                                            "type": "ArmyBookRule",
+                                            "label": "Beacon",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Satellite Backpack (Beacon)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "fPzGtio",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "10.000",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "-5oFCrw"
+                        },
+                        {
+                            "uid": "SuOdA",
+                            "cost": 25,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Jetpack",
+                                    "type": "ArmyBookItem",
+                                    "label": "Jetpack (Ambush, Flying, Stinger Bombs)",
+                                    "content": [
+                                        {
+                                            "key": "ambush",
+                                            "name": "Ambush",
+                                            "type": "ArmyBookRule",
+                                            "label": "Ambush",
+                                            "modify": false,
+                                            "rating": ""
+                                        },
+                                        {
+                                            "key": "flying",
+                                            "name": "Flying",
+                                            "type": "ArmyBookRule",
+                                            "label": "Flying",
+                                            "modify": false,
+                                            "rating": ""
+                                        },
+                                        {
+                                            "key": "stinger bombs",
+                                            "name": "Stinger Bombs",
+                                            "type": "ArmyBookRule",
+                                            "label": "Stinger Bombs",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Jetpack (Ambush, Flying, Stinger Bombs)",
+                            "proposedCost": 25,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "fPzGtio",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "24.000",
+                                    "newCostRounded": 25
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "SuOdA"
+                        },
+                        {
+                            "uid": "GpKbZzJ",
+                            "cost": 70,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Beast Mount",
+                                    "type": "ArmyBookItem",
+                                    "label": "Beast Mount (Bounding, Claws (A3, AP(1)), Defense +1, Impact(3), Tough(+3))",
+                                    "content": [
+                                        {
+                                            "name": "Defense",
+                                            "type": "ArmyBookDefense",
+                                            "label": "Defense +1",
+                                            "rating": "1",
+                                            "condition": ""
+                                        },
+                                        {
+                                            "name": "Claws",
+                                            "type": "ArmyBookWeapon",
+                                            "label": "Claws (A3, AP(1))",
+                                            "range": 0,
+                                            "attacks": 3,
+                                            "condition": "",
+                                            "specialRules": [
+                                                {
+                                                    "key": "ap",
+                                                    "name": "AP",
+                                                    "type": "ArmyBookRule",
+                                                    "label": "AP(1)",
+                                                    "modify": false,
+                                                    "rating": "1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "key": "bounding",
+                                            "name": "Bounding",
+                                            "type": "ArmyBookRule",
+                                            "label": "Bounding",
+                                            "modify": false,
+                                            "rating": ""
+                                        },
+                                        {
+                                            "key": "impact",
+                                            "name": "Impact",
+                                            "type": "ArmyBookRule",
+                                            "label": "Impact(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        },
+                                        {
+                                            "key": "tough",
+                                            "name": "Tough",
+                                            "type": "ArmyBookRule",
+                                            "label": "Tough(+3)",
+                                            "modify": true,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Beast Mount (Bounding, Claws (A3, AP(1)), Defense +1, Impact(3), Tough(+3))",
+                            "proposedCost": 70,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "A1",
+                            "parentSectionUid": "fPzGtio",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Veteran",
+                                    "newCostPrecise": "69.300",
+                                    "newCostRounded": 70
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "GpKbZzJ"
+                        }
+                    ],
+                    "parentPackageUid": "A1",
+                    "select": 1
+                }
+            ]
+        },
+        {
+            "uid": "B1",
+            "hint": "Nomads",
+            "sections": [
+                {
+                    "id": "qfCkTnm",
+                    "uid": "0mpLH2_",
+                    "type": "replace",
+                    "label": "Replace all Scrap Rifles and CCWs",
+                    "options": [
+                        {
+                            "uid": "bUJ1tl-",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Scrap Pistols",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Scrap Pistols (12\", A1)",
+                                    "range": 12,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [],
+                                    "count": 1
+                                },
+                                {
+                                    "name": "CCWs",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "CCWs (A2)",
+                                    "range": 0,
+                                    "attacks": 2,
+                                    "condition": "",
+                                    "specialRules": [],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "CCWs (A2), Scrap Pistols (12\", A1)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "0mpLH2_",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "10.000",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "bUJ1tl-"
+                        }
+                    ],
+                    "parentPackageUid": "B1",
+                    "affects": "all",
+                    "replaceWhat": [
+                        "Scrap Rifles",
+                        "CCWs"
+                    ]
+                },
+                {
+                    "id": "_MP-dId",
+                    "uid": "ONq-G1h",
+                    "type": "replace",
+                    "label": "Replace up to two Scrap Rifles",
+                    "options": [
+                        {
+                            "uid": "2ru823z",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Scrap Shotgun",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Scrap Shotgun (6”, A4, AP(1))",
+                                    "range": 6,
+                                    "attacks": 4,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Scrap Shotgun (6”, A4, AP(1))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "ONq-G1h",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "1.600",
+                                    "newCostRounded": 0
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "2ru823z"
+                        },
+                        {
+                            "uid": "ynOJ40m",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Power Spiker",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Power Spiker (9”, A3, Rending)",
+                                    "range": 9,
+                                    "attacks": 3,
+                                    "specialRules": [
+                                        {
+                                            "key": "rending",
+                                            "name": "Rending",
+                                            "type": "ArmyBookRule",
+                                            "label": "Rending",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Power Spiker (9”, A3, Rending)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "ONq-G1h",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "3.087",
+                                    "newCostRounded": 0
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "ynOJ40m"
+                        },
+                        {
+                            "uid": "XjfTraC",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Force Blaster",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Force Blaster (12”, A1, AP(4))",
+                                    "range": 12,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Force Blaster (12”, A1, AP(4))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "ONq-G1h",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "0.600",
+                                    "newCostRounded": 0
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "XjfTraC"
+                        },
+                        {
+                            "uid": "GTg1OL-",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Zapper Gun",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Zapper Gun (12”, A2, Taser)",
+                                    "range": 12,
+                                    "attacks": 2,
+                                    "specialRules": [
+                                        {
+                                            "key": "taser",
+                                            "name": "Taser",
+                                            "type": "ArmyBookRule",
+                                            "label": "Taser",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Zapper Gun (12”, A2, Taser)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "ONq-G1h",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "6.000",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "GTg1OL-"
+                        },
+                        {
+                            "uid": "vOWy7po",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Fumigator",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Fumigator (12”, A1, Blast(3), Poison)",
+                                    "range": 12,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "blast",
+                                            "name": "Blast",
+                                            "type": "ArmyBookRule",
+                                            "label": "Blast(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        },
+                                        {
+                                            "key": "poison",
+                                            "name": "Poison",
+                                            "type": "ArmyBookRule",
+                                            "label": "Poison",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Fumigator (12”, A1, Blast(3), Poison)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "ONq-G1h",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "6.000",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "vOWy7po"
+                        },
+                        {
+                            "uid": "kn3Aob2",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Rocket Launcher",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Rocket Launcher (18”, A1, AP(2), Deadly(3))",
+                                    "range": 18,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Rocket Launcher (18”, A1, AP(2), Deadly(3))",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "ONq-G1h",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "9.500",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "kn3Aob2"
+                        },
+                        {
+                            "uid": "Jt6y7B7",
+                            "cost": 20,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Hunting Rifle",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Hunting Rifle (24”, A1, AP(1), Sniper)",
+                                    "range": 24,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        },
+                                        {
+                                            "key": "sniper",
+                                            "name": "Sniper",
+                                            "type": "ArmyBookRule",
+                                            "label": "Sniper",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Hunting Rifle (24”, A1, AP(1), Sniper)",
+                            "proposedCost": 20,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "B1",
+                            "parentSectionUid": "ONq-G1h",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "21.200",
+                                    "newCostRounded": 20
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "Jt6y7B7"
+                        }
+                    ],
+                    "parentPackageUid": "B1",
+                    "select": 2,
+                    "replaceWhat": [
+                        "Scrap Rifles"
+                    ]
+                }
+            ]
+        },
+        {
+            "uid": "E1",
+            "hint": "Elites",
+            "sections": [
+                {
+                    "id": "76spQxA",
+                    "uid": "1B_aaB9",
+                    "type": "replace",
+                    "label": "Replace any Energy Rifle",
+                    "options": [
+                        {
+                            "uid": "ncb2Mwk",
+                            "cost": 0,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Shotgun",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Shotgun (12”, A2, AP(1))",
+                                    "range": 12,
+                                    "attacks": 2,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Shotgun (12”, A2, AP(1))",
+                            "proposedCost": 0,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "E1",
+                            "parentSectionUid": "1B_aaB9",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Elites",
+                                    "newCostPrecise": "0.000",
+                                    "newCostRounded": 0
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "ncb2Mwk"
+                        }
+                    ],
+                    "parentPackageUid": "E1",
+                    "affects": "any",
+                    "replaceWhat": [
+                        "Energy Rifle"
+                    ]
+                },
+                {
+                    "id": "eLloR0t",
+                    "uid": "GVh565Z",
+                    "type": "replace",
+                    "label": "Replace one Energy Rifle",
+                    "options": [
+                        {
+                            "uid": "C-mkPJ0",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Plasma Rifle",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Plasma Rifle (24”, A1, AP(4))",
+                                    "range": 24,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Plasma Rifle (24”, A1, AP(4))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "E1",
+                            "parentSectionUid": "GVh565Z",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Elites",
+                                    "newCostPrecise": "6.075",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "C-mkPJ0"
+                        },
+                        {
+                            "uid": "CLjKAWt",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Flamethrower",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Flamethrower (12”, A6)",
+                                    "range": 12,
+                                    "attacks": 6,
+                                    "specialRules": [],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Flamethrower (12”, A6)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "E1",
+                            "parentSectionUid": "GVh565Z",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Elites",
+                                    "newCostPrecise": "10.800",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "CLjKAWt"
+                        },
+                        {
+                            "uid": "Fk4KScM",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Shred Rifle",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Shred Rifle (18”, A3, Rending)",
+                                    "range": 18,
+                                    "attacks": 3,
+                                    "specialRules": [
+                                        {
+                                            "key": "rending",
+                                            "name": "Rending",
+                                            "type": "ArmyBookRule",
+                                            "label": "Rending",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Shred Rifle (18”, A3, Rending)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "E1",
+                            "parentSectionUid": "GVh565Z",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Elites",
+                                    "newCostPrecise": "11.559",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "Fk4KScM"
+                        },
+                        {
+                            "uid": "CkWfS5C",
+                            "cost": 35,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Missile Launcher",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Missile Launcher (30”, A1, AP(2), Deadly(3), Lock-On)",
+                                    "range": 30,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        },
+                                        {
+                                            "key": "lock-on",
+                                            "name": "Lock-On",
+                                            "type": "ArmyBookRule",
+                                            "label": "Lock-On",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Missile Launcher (30”, A1, AP(2), Deadly(3), Lock-On)",
+                            "proposedCost": 35,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "E1",
+                            "parentSectionUid": "GVh565Z",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Elites",
+                                    "newCostPrecise": "38.011",
+                                    "newCostRounded": 35
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "CkWfS5C"
+                        }
+                    ],
+                    "parentPackageUid": "E1",
+                    "affects": 1,
+                    "replaceWhat": [
+                        "Energy Rifle"
+                    ]
+                }
+            ]
+        },
+        {
+            "uid": "F1",
+            "hint": "Vultures",
+            "sections": [
+                {
+                    "id": "2gyT5ga",
+                    "uid": "R40tYtX",
+                    "type": "replace",
+                    "label": "Replace all Scrap Pistols",
+                    "options": [
+                        {
+                            "uid": "a8CET",
+                            "cost": 25,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Energy Rifles",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Energy Rifles (24\", A1, AP(1))",
+                                    "range": 24,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Energy Rifles (24\", A1, AP(1))",
+                            "proposedCost": 25,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "R40tYtX",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "27.000",
+                                    "newCostRounded": 25
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "a8CET"
+                        }
+                    ],
+                    "parentPackageUid": "F1",
+                    "affects": "all",
+                    "replaceWhat": [
+                        "Scrap Pistols"
+                    ]
+                },
+                {
+                    "id": "_YT4LWN",
+                    "uid": "dzNNXTp",
+                    "type": "replace",
+                    "label": "Replace any Scrap Pistol and CCW",
+                    "options": [
+                        {
+                            "uid": "7kpVZao",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Explosive Spear",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Explosive Spear (A2, AP(1), Impact(1))",
+                                    "attacks": 2,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        },
+                                        {
+                                            "key": "impact",
+                                            "name": "Impact",
+                                            "type": "ArmyBookRule",
+                                            "label": "Impact(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Explosive Spear (A2, AP(1), Impact(1))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "dzNNXTp",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "4.200",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "7kpVZao"
+                        }
+                    ],
+                    "parentPackageUid": "F1",
+                    "affects": "any",
+                    "replaceWhat": [
+                        "Scrap Pistol",
+                        "CCW"
+                    ]
+                },
+                {
+                    "id": "smTnZwZ",
+                    "uid": "S0NfqTh",
+                    "type": "replace",
+                    "label": "Replace one Scrap Pistol",
+                    "options": [
+                        {
+                            "uid": "9Iy_Rqy",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Scrap Shotgun",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Scrap Shotgun (6\", A4, AP(1))",
+                                    "range": 6,
+                                    "attacks": 4,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Scrap Shotgun (6\", A4, AP(1))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "S0NfqTh",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "5.400",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "9Iy_Rqy"
+                        },
+                        {
+                            "uid": "KeEMl-4",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Force Blaster",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Force Blaster (12”, A1, AP(4))",
+                                    "range": 12,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Force Blaster (12”, A1, AP(4))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "S0NfqTh",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "3.900",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "KeEMl-4"
+                        },
+                        {
+                            "uid": "p9G9NJ8",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Zapper Gun",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Zapper Gun (12”, A2, Taser)",
+                                    "range": 12,
+                                    "attacks": 2,
+                                    "specialRules": [
+                                        {
+                                            "key": "taser",
+                                            "name": "Taser",
+                                            "type": "ArmyBookRule",
+                                            "label": "Taser",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Zapper Gun (12”, A2, Taser)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "S0NfqTh",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "9.000",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "p9G9NJ8"
+                        }
+                    ],
+                    "parentPackageUid": "F1",
+                    "affects": 1,
+                    "replaceWhat": [
+                        "Scrap Pistol"
+                    ]
+                },
+                {
+                    "id": "jZYrdXJ",
+                    "uid": "_fqDZ",
+                    "label": "Replace any CCW",
+                    "options": [
+                        {
+                            "uid": "fEYEY",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Junk Sword",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Junk Sword (A2, AP(1), Rending)",
+                                    "range": 0,
+                                    "attacks": 2,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        },
+                                        {
+                                            "key": "rending",
+                                            "name": "Rending",
+                                            "type": "ArmyBookRule",
+                                            "label": "Rending",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Junk Sword (A2, AP(1), Rending)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "_fqDZ",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "4.460",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "fEYEY"
+                        },
+                        {
+                            "uid": "aiR2e",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Claw Hand",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Claw Hand (A2, AP(4))",
+                                    "range": 0,
+                                    "attacks": 2,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Claw Hand (A2, AP(4))",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "_fqDZ",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "10.400",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "aiR2e"
+                        }
+                    ],
+                    "parentPackageUid": "F1",
+                    "type": "replace",
+                    "affects": "any",
+                    "replaceWhat": [
+                        "CCW"
+                    ]
+                },
+                {
+                    "id": "oR0wITr",
+                    "uid": "VrAoI",
+                    "label": "Replace one CCW",
+                    "options": [
+                        {
+                            "uid": "zwPOA",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Scrap Club",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Scrap Club (A1, Blast(3))",
+                                    "range": 0,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "blast",
+                                            "name": "Blast",
+                                            "type": "ArmyBookRule",
+                                            "label": "Blast(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Scrap Club (A1, Blast(3))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "VrAoI",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "2.000",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "zwPOA"
+                        },
+                        {
+                            "uid": "ALsE8",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Jagged Hook",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+                                    "range": 0,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "F1",
+                            "parentSectionUid": "VrAoI",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Vultures",
+                                    "newCostPrecise": "10.000",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "ALsE8"
+                        }
+                    ],
+                    "parentPackageUid": "F1",
+                    "type": "replace",
+                    "affects": 1,
+                    "replaceWhat": [
+                        "CCW"
+                    ]
+                }
+            ]
+        },
+        {
+            "uid": "G1",
+            "hint": "Hounds",
+            "sections": [
+                {
+                    "id": "Nm2S960",
+                    "uid": "mVJDGDC",
+                    "type": "upgrade",
+                    "label": "Upgrade all models with any",
+                    "model": true,
+                    "options": [
+                        {
+                            "uid": "90baKV8",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Hunter Breed",
+                                    "type": "ArmyBookItem",
+                                    "label": "Hunter Breed (Furious)",
+                                    "content": [
+                                        {
+                                            "key": "furious",
+                                            "name": "Furious",
+                                            "type": "ArmyBookRule",
+                                            "label": "Furious",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Hunter Breed (Furious)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "G1",
+                            "parentSectionUid": "mVJDGDC",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Hounds",
+                                    "newCostPrecise": "9.900",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "90baKV8"
+                        },
+                        {
+                            "uid": "N4rW4Hz",
+                            "cost": 20,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Vicious Bite",
+                                    "type": "ArmyBookItem",
+                                    "label": "Vicious Bite (Poison in melee)",
+                                    "content": [
+                                        {
+                                            "key": "poison",
+                                            "name": "Poison",
+                                            "type": "ArmyBookRule",
+                                            "label": "Poison in melee",
+                                            "modify": false,
+                                            "rating": "",
+                                            "condition": "in melee"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Vicious Bite (Poison in melee)",
+                            "proposedCost": 20,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "G1",
+                            "parentSectionUid": "mVJDGDC",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Hounds",
+                                    "newCostPrecise": "20.000",
+                                    "newCostRounded": 20
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "N4rW4Hz"
+                        }
+                    ],
+                    "parentPackageUid": "G1",
+                    "affects": "all",
+                    "select": "any"
+                }
+            ]
+        },
+        {
+            "uid": "H1",
+            "hint": "Beast Riders",
+            "sections": [
+                {
+                    "id": "NGp-oOM",
+                    "uid": "6Deob",
+                    "label": "Replace all Explosive Spears",
+                    "options": [
+                        {
+                            "uid": "kYRbY",
+                            "cost": 30,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Heavy Machineguns",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Heavy Machineguns (30\", A3, AP(1))",
+                                    "range": 30,
+                                    "attacks": 3,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Heavy Machineguns (30\", A3, AP(1))",
+                            "proposedCost": 30,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "H1",
+                            "parentSectionUid": "6Deob",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Beast Riders",
+                                    "newCostPrecise": "31.500",
+                                    "newCostRounded": 30
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "kYRbY"
+                        },
+                        {
+                            "uid": "XMkEs",
+                            "cost": 45,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Hunting Rifles",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Hunting Rifles (24\", A1, AP(1), Sniper)",
+                                    "range": 24,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        },
+                                        {
+                                            "key": "sniper",
+                                            "name": "Sniper",
+                                            "type": "ArmyBookRule",
+                                            "label": "Sniper",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Hunting Rifles (24\", A1, AP(1), Sniper)",
+                            "proposedCost": 45,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "H1",
+                            "parentSectionUid": "6Deob",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Beast Riders",
+                                    "newCostPrecise": "44.100",
+                                    "newCostRounded": 45
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "XMkEs"
+                        }
+                    ],
+                    "parentPackageUid": "H1",
+                    "type": "replace",
+                    "affects": "all",
+                    "replaceWhat": [
+                        "Explosive Spears"
+                    ]
+                },
+                {
+                    "id": "CYsuFUg",
+                    "uid": "4X8u8Xg",
+                    "type": "replace",
+                    "label": "Replace any Explosive Spear",
+                    "options": [
+                        {
+                            "uid": "bh_sNTx",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Harpoon",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Harpoon (A1, AP(2), Deadly(3))",
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Harpoon (A1, AP(2), Deadly(3))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "H1",
+                            "parentSectionUid": "4X8u8Xg",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Beast Riders",
+                                    "newCostPrecise": "3.000",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "bh_sNTx"
+                        },
+                        {
+                            "uid": "YIFBrT5",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Hunting Hook",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Hunting Hook (A3, Impact(1))",
+                                    "attacks": 3,
+                                    "specialRules": [
+                                        {
+                                            "key": "impact",
+                                            "name": "Impact",
+                                            "type": "ArmyBookRule",
+                                            "label": "Impact(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Hunting Hook (A3, Impact(1))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "H1",
+                            "parentSectionUid": "4X8u8Xg",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Beast Riders",
+                                    "newCostPrecise": "2.500",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "YIFBrT5"
+                        },
+                        {
+                            "uid": "1dIA3",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Goad-Spear",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Goad-Spear (A3, Rending)",
+                                    "range": 0,
+                                    "attacks": 3,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "rending",
+                                            "name": "Rending",
+                                            "type": "ArmyBookRule",
+                                            "label": "Rending",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Goad-Spear (A3, Rending)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "H1",
+                            "parentSectionUid": "4X8u8Xg",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Beast Riders",
+                                    "newCostPrecise": "1.950",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "1dIA3"
+                        }
+                    ],
+                    "parentPackageUid": "H1",
+                    "affects": "any",
+                    "replaceWhat": [
+                        "Explosive Spear"
+                    ]
+                },
+                {
+                    "id": "Eh22PyN",
+                    "uid": "Pu3r8FR",
+                    "type": "upgrade",
+                    "label": "Upgrade all models with",
+                    "model": true,
+                    "options": [
+                        {
+                            "uid": "11CzPA0",
+                            "cost": 35,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Bladed Tusks",
+                                    "type": "ArmyBookItem",
+                                    "label": "Bladed Tusks (Impact(3))",
+                                    "content": [
+                                        {
+                                            "key": "impact",
+                                            "name": "Impact",
+                                            "type": "ArmyBookRule",
+                                            "label": "Impact(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Bladed Tusks (Impact(3))",
+                            "proposedCost": 35,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "H1",
+                            "parentSectionUid": "Pu3r8FR",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Beast Riders",
+                                    "newCostPrecise": "36.000",
+                                    "newCostRounded": 35
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "11CzPA0"
+                        }
+                    ],
+                    "parentPackageUid": "H1",
+                    "affects": "all"
+                }
+            ]
+        },
+        {
+            "uid": "I1",
+            "hint": "Great Beast",
+            "sections": [
+                {
+                    "id": "KaHWsoL",
+                    "uid": "T10FmaG",
+                    "type": "upgrade",
+                    "label": "Upgrade with one",
+                    "options": [
+                        {
+                            "uid": "WYJMZwL",
+                            "cost": 30,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Harpoon Launcher",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Harpoon Launcher (12”, A1, AP(4), Deadly(6))",
+                                    "range": 12,
+                                    "attacks": 1,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(6)",
+                                            "modify": false,
+                                            "rating": "6"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Harpoon Launcher (12”, A1, AP(4), Deadly(6))",
+                            "proposedCost": 30,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "I1",
+                            "parentSectionUid": "T10FmaG",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Great Beast",
+                                    "newCostPrecise": "31.050",
+                                    "newCostRounded": 30
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "WYJMZwL"
+                        },
+                        {
+                            "uid": "nSIh3fI",
+                            "cost": 30,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Spear Launcher",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Spear Launcher (12”, A6, AP(2))",
+                                    "range": 12,
+                                    "attacks": 6,
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Spear Launcher (12”, A6, AP(2))",
+                            "proposedCost": 30,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "I1",
+                            "parentSectionUid": "T10FmaG",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Great Beast",
+                                    "newCostPrecise": "32.400",
+                                    "newCostRounded": 30
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "nSIh3fI"
+                        }
+                    ],
+                    "parentPackageUid": "I1",
+                    "select": 1
+                },
+                {
+                    "id": "jWCnHV6",
+                    "uid": "sbwYojb",
+                    "type": "upgrade",
+                    "label": "Upgrade with",
+                    "options": [
+                        {
+                            "uid": "ymHwUtP",
+                            "cost": 20,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Brutal Charge",
+                                    "type": "ArmyBookItem",
+                                    "label": "Brutal Charge (Impact(6))",
+                                    "content": [
+                                        {
+                                            "key": "impact",
+                                            "name": "Impact",
+                                            "type": "ArmyBookRule",
+                                            "label": "Impact(6)",
+                                            "modify": false,
+                                            "rating": "6"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Brutal Charge (Impact(6))",
+                            "proposedCost": 20,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "I1",
+                            "parentSectionUid": "sbwYojb",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Great Beast",
+                                    "newCostPrecise": "24.000",
+                                    "newCostRounded": 20
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "ymHwUtP"
+                        }
+                    ],
+                    "parentPackageUid": "I1"
+                }
+            ]
+        },
+        {
+            "uid": "J1",
+            "hint": "Long Neck",
+            "sections": [
+                {
+                    "id": "3j1Yal5",
+                    "uid": "NtcNPFu",
+                    "type": "replace",
+                    "label": "Replace Heavy Rail Cannon",
+                    "options": [
+                        {
+                            "uid": "AttNl",
+                            "cost": 20,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Heavy Rocket Array",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Heavy Rocket Array (30\", A3, AP(2), Blast(6), Indirect)",
+                                    "range": 30,
+                                    "attacks": 3,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "blast",
+                                            "name": "Blast",
+                                            "type": "ArmyBookRule",
+                                            "label": "Blast(6)",
+                                            "modify": false,
+                                            "rating": "6"
+                                        },
+                                        {
+                                            "key": "indirect",
+                                            "name": "Indirect",
+                                            "type": "ArmyBookRule",
+                                            "label": "Indirect",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Heavy Rocket Array (30\", A3, AP(2), Blast(6), Indirect)",
+                            "proposedCost": 20,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "J1",
+                            "parentSectionUid": "NtcNPFu",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Long Neck",
+                                    "newCostPrecise": "20.250",
+                                    "newCostRounded": 20
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "AttNl"
+                        },
+                        {
+                            "uid": "sb7CVLc",
+                            "cost": 25,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Heavy Energy Cannon",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Heavy Energy Cannon (36\", A3, AP(4), Deadly(6))",
+                                    "range": 36,
+                                    "attacks": 3,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(6)",
+                                            "modify": false,
+                                            "rating": "6"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Heavy Energy Cannon (36\", A3, AP(4), Deadly(6))",
+                            "proposedCost": 25,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "J1",
+                            "parentSectionUid": "NtcNPFu",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Long Neck",
+                                    "newCostPrecise": "26.325",
+                                    "newCostRounded": 25
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "sb7CVLc"
+                        }
+                    ],
+                    "parentPackageUid": "J1",
+                    "replaceWhat": [
+                        "Heavy Rail Cannon"
+                    ]
+                }
+            ]
+        },
+        {
+            "uid": "K1",
+            "hint": "Mastodon",
+            "sections": [
+                {
+                    "id": "PZd9MVx",
+                    "uid": "rLJM7W9",
+                    "type": "replace",
+                    "label": "Replace Scatter Cannon",
+                    "options": [
+                        {
+                            "uid": "JjWhpYD",
+                            "cost": 0,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Piercing Cannon",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Piercing Cannon (30”, A6, Deadly(3), AP(2), Indirect)",
+                                    "range": 30,
+                                    "attacks": 6,
+                                    "specialRules": [
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        },
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "indirect",
+                                            "name": "Indirect",
+                                            "type": "ArmyBookRule",
+                                            "label": "Indirect",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Piercing Cannon (30”, A6, Deadly(3), AP(2), Indirect)",
+                            "proposedCost": 0,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "K1",
+                            "parentSectionUid": "rLJM7W9",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Mastodon",
+                                    "newCostPrecise": "0.000",
+                                    "newCostRounded": 0
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "JjWhpYD"
+                        }
+                    ],
+                    "parentPackageUid": "K1",
+                    "replaceWhat": [
+                        "Scatter Cannon"
+                    ]
+                },
+                {
+                    "id": "EHxKpP5",
+                    "uid": "gULuprA",
+                    "type": "upgrade",
+                    "label": "Upgrade with up to two",
+                    "options": [
+                        {
+                            "uid": "QSSOu",
+                            "cost": 30,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Heavy Machinegun",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Heavy Machinegun (30\", A3, AP(1))",
+                                    "range": 30,
+                                    "attacks": 3,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Heavy Machinegun (30\", A3, AP(1))",
+                            "proposedCost": 30,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "K1",
+                            "parentSectionUid": "gULuprA",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Mastodon",
+                                    "newCostPrecise": "31.500",
+                                    "newCostRounded": 30
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "QSSOu"
+                        }
+                    ],
+                    "parentPackageUid": "K1",
+                    "select": 2
+                }
+            ]
+        },
+        {
+            "uid": "cbIZR",
+            "hint": "Satellite Backpack",
+            "sections": [
+                {
+                    "id": "50dyVpl",
+                    "uid": "4jXFc",
+                    "label": "Upgrade one model with",
+                    "options": [
+                        {
+                            "uid": "h-61J",
+                            "cost": 10,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Satellite Backpack",
+                                    "type": "ArmyBookItem",
+                                    "label": "Satellite Backpack (Beacon)",
+                                    "content": [
+                                        {
+                                            "key": "beacon",
+                                            "name": "Beacon",
+                                            "type": "ArmyBookRule",
+                                            "label": "Beacon",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Satellite Backpack (Beacon)",
+                            "proposedCost": 10,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "cbIZR",
+                            "parentSectionUid": "4jXFc",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Nomads",
+                                    "newCostPrecise": "10.000",
+                                    "newCostRounded": 10
+                                },
+                                {
+                                    "isValid": true,
+                                    "unitName": "Elites",
+                                    "newCostPrecise": "10.000",
+                                    "newCostRounded": 10
+                                },
+                                {
+                                    "isValid": true,
+                                    "unitName": "Trackers",
+                                    "newCostPrecise": "10.000",
+                                    "newCostRounded": 10
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "h-61J"
+                        }
+                    ],
+                    "parentPackageUid": "cbIZR",
+                    "type": "upgrade",
+                    "model": true,
+                    "affects": 1
+                }
+            ]
+        },
+        {
+            "uid": "j3Xwf",
+            "hint": "Stalkers",
+            "sections": [
+                {
+                    "id": "b4_CgZ7",
+                    "uid": "4Rg4a",
+                    "label": "Replace any CCW",
+                    "options": [
+                        {
+                            "uid": "tFwnTdD",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Junk Sword",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Junk Sword (A1, AP(1), Rending)",
+                                    "range": 0,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(1)",
+                                            "modify": false,
+                                            "rating": "1"
+                                        },
+                                        {
+                                            "key": "rending",
+                                            "name": "Rending",
+                                            "type": "ArmyBookRule",
+                                            "label": "Rending",
+                                            "modify": false,
+                                            "rating": ""
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Junk Sword (A1, AP(1), Rending)",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "j3Xwf",
+                            "parentSectionUid": "4Rg4a",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Stalkers",
+                                    "newCostPrecise": "3.038",
+                                    "newCostRounded": 0
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "tFwnTdD"
+                        },
+                        {
+                            "uid": "oNFc3t_",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Claw Hand",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Claw Hand (A1, AP(4))",
+                                    "range": 0,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(4)",
+                                            "modify": false,
+                                            "rating": "4"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Claw Hand (A1, AP(4))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "j3Xwf",
+                            "parentSectionUid": "4Rg4a",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Stalkers",
+                                    "newCostPrecise": "6.474",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "oNFc3t_"
+                        }
+                    ],
+                    "parentPackageUid": "j3Xwf",
+                    "type": "replace",
+                    "affects": "any",
+                    "replaceWhat": [
+                        "CCW"
+                    ]
+                },
+                {
+                    "id": "GJQ2AZ6",
+                    "uid": "D0f6Q",
+                    "label": "Replace one CCW",
+                    "options": [
+                        {
+                            "uid": "Y3JuZ",
+                            "cost": 5,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Scrap Club",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Scrap Club (A1, Blast(3))",
+                                    "range": 0,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "blast",
+                                            "name": "Blast",
+                                            "type": "ArmyBookRule",
+                                            "label": "Blast(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Scrap Club (A1, Blast(3))",
+                            "proposedCost": 5,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "j3Xwf",
+                            "parentSectionUid": "D0f6Q",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Stalkers",
+                                    "newCostPrecise": "7.470",
+                                    "newCostRounded": 5
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "Y3JuZ"
+                        },
+                        {
+                            "uid": "p_nDD",
+                            "cost": 15,
+                            "type": "ArmyBookUpgradeOption",
+                            "gains": [
+                                {
+                                    "name": "Jagged Hook",
+                                    "type": "ArmyBookWeapon",
+                                    "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+                                    "range": 0,
+                                    "attacks": 1,
+                                    "condition": "",
+                                    "specialRules": [
+                                        {
+                                            "key": "ap",
+                                            "name": "AP",
+                                            "type": "ArmyBookRule",
+                                            "label": "AP(2)",
+                                            "modify": false,
+                                            "rating": "2"
+                                        },
+                                        {
+                                            "key": "deadly",
+                                            "name": "Deadly",
+                                            "type": "ArmyBookRule",
+                                            "label": "Deadly(3)",
+                                            "modify": false,
+                                            "rating": "3"
+                                        }
+                                    ],
+                                    "count": 1
+                                }
+                            ],
+                            "label": "Jagged Hook (A1, AP(2), Deadly(3))",
+                            "proposedCost": 15,
+                            "proposedVersion": "2.50",
+                            "parentPackageUid": "j3Xwf",
+                            "parentSectionUid": "D0f6Q",
+                            "proposedCostHint": [
+                                {
+                                    "isValid": true,
+                                    "unitName": "Stalkers",
+                                    "newCostPrecise": "17.430",
+                                    "newCostRounded": 15
+                                }
+                            ],
+                            "isModel": false,
+                            "id": "p_nDD"
+                        }
+                    ],
+                    "parentPackageUid": "j3Xwf",
+                    "type": "replace",
+                    "affects": 1,
+                    "replaceWhat": [
+                        "CCW"
+                    ]
+                }
+            ]
+        }
+    ],
+    "specialRules": [
+        {
+            "id": 112,
+            "name": "Beacon",
+            "aliasedRuleId": null,
+            "description": "Friendly units using Ambush may ignore distance restrictions from enemies if they are deployed within 6” of this model.",
+            "hasRating": false
+        },
+        {
+            "id": 428,
+            "name": "Charged Ammo",
+            "aliasedRuleId": null,
+            "description": "This model counts as having the Ambush rule, and gets AP(+3) when shooting on the round in which it deploys.",
+            "hasRating": false
+        },
+        {
+            "id": 426,
+            "name": "Bounding",
+            "aliasedRuleId": null,
+            "description": "When this model is activated, you may place it anywhere within D3+1\".",
+            "hasRating": false
+        },
+        {
+            "id": 431,
+            "name": "Prowl",
+            "aliasedRuleId": null,
+            "description": "Enemy units over 18” away get -2 to hit rolls when shooting at the hero and its unit whilst they are inside terrain.",
+            "hasRating": false
+        },
+        {
+            "id": 429,
+            "name": "Hidden Route",
+            "aliasedRuleId": null,
+            "description": "The hero and its unit get the Ambush special rule.",
+            "hasRating": false
+        },
+        {
+            "id": 432,
+            "name": "Scrap Ammo",
+            "aliasedRuleId": null,
+            "description": "The hero and its unit get Rending when shooting.",
+            "hasRating": false
+        },
+        {
+            "id": 508,
+            "name": "Taser",
+            "aliasedRuleId": null,
+            "description": "Unmodified results of 6 to hit are multiplied by 4.",
+            "hasRating": false
+        },
+        {
+            "id": 290,
+            "name": "Stinger Bombs",
+            "aliasedRuleId": null,
+            "description": "Whenever this model moves over enemy units, pick one of them and roll one die, on a 2+ it takes 1 hit.",
+            "hasRating": false
+        },
+        {
+            "id": 430,
+            "name": "Martial Prowess",
+            "aliasedRuleId": null,
+            "description": "The hero and its unit get +2 to hit rolls in melee or shooting whilst inside terrain (pick one).",
+            "hasRating": false
+        },
+        {
+            "id": 427,
+            "name": "Carnivore",
+            "aliasedRuleId": null,
+            "description": "This model gets +1 to hit rolls when in melee.",
+            "hasRating": false
+        },
+        {
+            "id": 155,
+            "name": "Dodge",
+            "aliasedRuleId": null,
+            "description": "Enemies get -1 to hit in melee when they attack units where all models have this rule.",
+            "hasRating": false
+        }
+    ],
+    "customRules": [],
+    "spells": [
+        {
+            "id": "icwzh",
+            "name": "Lean and Mean",
+            "effect": "Target 2 friendly units within 6” get +1\" next time they Advance, or +2\" next time they Charge/Rush.",
+            "threshold": 4
+        },
+        {
+            "id": "-BUjo",
+            "name": "Feral Strike",
+            "effect": "Target enemy unit within 6” takes 3 hits with AP(2).",
+            "threshold": 4
+        },
+        {
+            "id": "JA8IE",
+            "name": "Psy-Canines",
+            "effect": "Target 2 friendly units within 12” get AP(+2) next time they fight in melee.",
+            "threshold": 5
+        },
+        {
+            "id": "u7epQ",
+            "name": "Quill Blast",
+            "effect": "Target enemy unit within 12” takes 7 hits.",
+            "threshold": 5
+        },
+        {
+            "id": "qmDvb",
+            "name": "Shaper",
+            "effect": "Target friendly unit within 12” gets Regeneration next time it takes wounds.",
+            "threshold": 6
+        },
+        {
+            "id": "lJ385",
+            "name": "Power Maw",
+            "effect": "Target enemy unit within 6\" takes 1 hit with AP(4) and Deadly(6).",
+            "threshold": 6
+        }
+    ],
+    "modifiedAt": "2023-04-13T21:06:49.392Z",
+    "official": true,
+    "versionString": "v2.50",
+    "coverImagePath": "https://onepagerules.files.wordpress.com/2022/04/jackals.png",
+    "coverImageCredit": "Francisco Fernandez",
+    "bannerImagePath": "https://i.imgur.com/BeXc05I.png",
+    "isLive": true,
+    "factionName": null,
+    "factionRelation": null,
+    "popularity": 1,
+    "username": "onepagerules",
+    "isPartner": false,
+    "armyForgeUrl": "https://army-forge.onepagerules.com/listConfiguration?armyId=BKi_hJaJflN8ZorH",
+    "gameSystemId": 2,
+    "gameSystemSlug": "grimdark-future",
+    "fullname": "Grimdark Future",
+    "aberration": "GF",
+    "universe": "Grimdark Future",
+    "shortname": "Grimdark Future",
+    "flavouredUid": "BKi_hJaJflN8ZorH~2"
+}

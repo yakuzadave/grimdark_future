@@ -1,0 +1,255 @@
+{
+    "gameSystem": "gf",
+    "armyId": "zz3kp5ry7ks6mxcx",
+    "armyIds": [
+        "zz3kp5ry7ks6mxcx"
+    ],
+    "armyFaction": null,
+    "armyName": "Soul-Snatcher Cults",
+    "modified": "2023-04-12T03:51:37.800Z",
+    "saveVersion": 3,
+    "listPoints": 735,
+    "list": {
+        "id": "2LKgVaFj",
+        "key": "E_SRKr5uR1FlHqR7sjxGB",
+        "name": "Soul-Snatcher Cults",
+        "units": [
+            {
+                "id": "BMa76or",
+                "armyId": "zz3kp5ry7ks6mxcx",
+                "selectionId": "1_YwO",
+                "selectedUpgrades": [
+                    {
+                        "instanceId": "W7bM5DJLD",
+                        "upgradeId": "a8lILnN",
+                        "optionId": "mE8jmgf"
+                    }
+                ],
+                "combined": false,
+                "joinToUnit": "3TNbn",
+                "xp": 0,
+                "traits": [],
+                "notes": null
+            },
+            {
+                "id": "wg6fbNx",
+                "armyId": "zz3kp5ry7ks6mxcx",
+                "selectionId": "3TNbn",
+                "selectedUpgrades": [
+                    {
+                        "instanceId": "V4KPctJWt",
+                        "upgradeId": "opqI_EA",
+                        "optionId": "6Faz1Cp"
+                    }
+                ],
+                "combined": true,
+                "joinToUnit": null,
+                "xp": 0,
+                "traits": [],
+                "notes": null
+            },
+            {
+                "id": "wg6fbNx",
+                "armyId": "zz3kp5ry7ks6mxcx",
+                "selectionId": "YBTQz",
+                "selectedUpgrades": [],
+                "combined": true,
+                "joinToUnit": "3TNbn",
+                "xp": 0,
+                "traits": [],
+                "notes": null
+            },
+            {
+                "id": "q6fx4lG",
+                "armyId": "zz3kp5ry7ks6mxcx",
+                "selectionId": "j9yTF",
+                "selectedUpgrades": [
+                    {
+                        "instanceId": "LcHN-AMGg",
+                        "upgradeId": "lkbv4rH",
+                        "optionId": "tjFWd"
+                    }
+                ],
+                "combined": false,
+                "joinToUnit": null,
+                "xp": 0,
+                "traits": [],
+                "notes": null
+            },
+            {
+                "id": "QhBJKna",
+                "armyId": "zz3kp5ry7ks6mxcx",
+                "selectionId": "utXf5",
+                "selectedUpgrades": [],
+                "combined": false,
+                "joinToUnit": null,
+                "xp": 0,
+                "traits": [],
+                "notes": null
+            }
+        ],
+        "points": 735,
+        "pointsLimit": 750,
+        "creationTime": "1681270806304",
+        "campaignMode": true,
+        "competitive": true,
+        "gameSystem": "gf",
+        "isSession": false,
+        "selectedUnitId": null,
+        "unitPreview": null,
+        "undoUnitRemove": [
+            {
+                "id": "wg6fbNx",
+                "cost": 95,
+                "name": "Neophytes",
+                "size": 5,
+                "defense": 5,
+                "quality": 4,
+                "upgrades": [
+                    "F1",
+                    "H1"
+                ],
+                "equipment": [
+                    {
+                        "id": "9MToX",
+                        "name": "CCWs",
+                        "label": "CCWs",
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    },
+                    {
+                        "id": "9Zkpg",
+                        "name": "Rifles",
+                        "label": "Rifles",
+                        "range": 24,
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    }
+                ],
+                "specialRules": [
+                    {
+                        "key": "scout",
+                        "name": "Scout",
+                        "rating": ""
+                    }
+                ],
+                "disabledUpgradeSections": [],
+                "armyId": "zz3kp5ry7ks6mxcx",
+                "selectedUpgrades": [],
+                "sortId": 6,
+                "selectionId": "3p7da",
+                "combined": true,
+                "joinToUnit": null,
+                "loadout": [
+                    {
+                        "id": "9MToX",
+                        "name": "CCWs",
+                        "label": "CCWs",
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    },
+                    {
+                        "id": "9Zkpg",
+                        "name": "Rifles",
+                        "label": "Rifles",
+                        "range": 24,
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    }
+                ],
+                "xp": 0,
+                "traits": [],
+                "notes": null
+            },
+            {
+                "id": "wg6fbNx",
+                "cost": 95,
+                "name": "Neophytes",
+                "size": 5,
+                "defense": 5,
+                "quality": 4,
+                "upgrades": [
+                    "F1",
+                    "H1"
+                ],
+                "equipment": [
+                    {
+                        "id": "9MToX",
+                        "name": "CCWs",
+                        "label": "CCWs",
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    },
+                    {
+                        "id": "9Zkpg",
+                        "name": "Rifles",
+                        "label": "Rifles",
+                        "range": 24,
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    }
+                ],
+                "specialRules": [
+                    {
+                        "key": "scout",
+                        "name": "Scout",
+                        "rating": ""
+                    }
+                ],
+                "disabledUpgradeSections": [],
+                "armyId": "zz3kp5ry7ks6mxcx",
+                "selectedUpgrades": [],
+                "sortId": 6,
+                "selectionId": "CBdkC",
+                "combined": true,
+                "joinToUnit": "3p7da",
+                "loadout": [
+                    {
+                        "id": "9MToX",
+                        "name": "CCWs",
+                        "label": "CCWs",
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    },
+                    {
+                        "id": "9Zkpg",
+                        "name": "Rifles",
+                        "label": "Rifles",
+                        "range": 24,
+                        "attacks": 1,
+                        "specialRules": [],
+                        "count": 5,
+                        "originalCount": 5,
+                        "type": "ArmyBookWeapon"
+                    }
+                ],
+                "xp": 0,
+                "traits": [],
+                "notes": null
+            }
+        ]
+    },
+    "favourite": false,
+    "isSession": true
+}
