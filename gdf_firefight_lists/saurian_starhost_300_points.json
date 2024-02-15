@@ -1,0 +1,781 @@
+{
+    "id": "dKMs5hIShtuL",
+    "name": "Saurian Starhost",
+    "units": [
+        {
+            "id": "RpQgbmd",
+            "cost": 65,
+            "name": "Saurian Veteran",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 3,
+            "upgrades": [
+                "B1"
+            ],
+            "equipment": [
+                {
+                    "id": "WIQQtqrV",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "5HrEUnYw",
+                    "name": "Veteran Pistol",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Veteran Pistol (12\", A2)",
+                    "range": 12,
+                    "attacks": 2,
+                    "weaponId": "97vxAN4f",
+                    "specialRules": [],
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "fearless",
+                    "name": "Fearless",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "hero",
+                    "name": "Hero",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "predator",
+                    "name": "Predator",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "U6hwlur14RpnInZr",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "QQ71n",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "StBDHnx2-",
+                    "upgrade": {
+                        "id": "RGReNch",
+                        "uid": "TTxA3mE",
+                        "label": "Upgrade with one",
+                        "options": null,
+                        "isHeroUpgrade": true,
+                        "parentPackageUid": "B1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "upgrade",
+                        "select": {
+                            "type": "exactly",
+                            "value": 1
+                        }
+                    },
+                    "option": {
+                        "uid": "WNp1T",
+                        "cost": 30,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "RpQgbmd",
+                                "cost": 30
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Crusader",
+                                "type": "ArmyBookItem",
+                                "label": "Crusader (Will of the Gods)",
+                                "content": [
+                                    {
+                                        "key": "will of the gods",
+                                        "name": "Will of the Gods",
+                                        "type": "ArmyBookRule",
+                                        "label": "Will of the Gods",
+                                        "modify": false,
+                                        "rating": "",
+                                        "count": 1,
+                                        "dependencies": []
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Crusader (Will of the Gods)",
+                        "proposedCost": 60,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "B1",
+                        "parentSectionUid": "TTxA3mE",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Saurian Veteran",
+                                "newCostPrecise": "28.8",
+                                "newCostRounded": 30,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "WNp1T"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "WIQQtqrV",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "5HrEUnYw",
+                    "name": "Veteran Pistol",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Veteran Pistol (12\", A2)",
+                    "range": 12,
+                    "attacks": 2,
+                    "weaponId": "97vxAN4f",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "name": "Crusader",
+                    "type": "ArmyBookItem",
+                    "label": "Crusader (Will of the Gods)",
+                    "content": [
+                        {
+                            "key": "will of the gods",
+                            "name": "Will of the Gods",
+                            "type": "ArmyBookRule",
+                            "label": "Will of the Gods",
+                            "modify": false,
+                            "rating": "",
+                            "count": 1,
+                            "dependencies": []
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "sd-Y62t",
+            "cost": 30,
+            "name": "Saurian Guardian",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 3,
+            "upgrades": [
+                "G1"
+            ],
+            "equipment": [
+                {
+                    "id": "kfjSk65e",
+                    "name": "Hammer",
+                    "type": "ArmyBookWeapon",
+                    "label": "Hammer (A2, AP(2))",
+                    "attacks": 2,
+                    "weaponId": "kfjSk65e",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "fearless",
+                    "name": "Fearless",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "predator",
+                    "name": "Predator",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "U6hwlur14RpnInZr",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "Rb6S9",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "kfjSk65e",
+                    "name": "Hammer",
+                    "type": "ArmyBookWeapon",
+                    "label": "Hammer (A2, AP(2))",
+                    "attacks": 2,
+                    "weaponId": "kfjSk65e",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "sd-Y62t",
+            "cost": 30,
+            "name": "Saurian Guardian",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 3,
+            "upgrades": [
+                "G1"
+            ],
+            "equipment": [
+                {
+                    "id": "kfjSk65e",
+                    "name": "Hammer",
+                    "type": "ArmyBookWeapon",
+                    "label": "Hammer (A2, AP(2))",
+                    "attacks": 2,
+                    "weaponId": "kfjSk65e",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "fearless",
+                    "name": "Fearless",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "predator",
+                    "name": "Predator",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "U6hwlur14RpnInZr",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "Tfr8l",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "kfjSk65e",
+                    "name": "Hammer",
+                    "type": "ArmyBookWeapon",
+                    "label": "Hammer (A2, AP(2))",
+                    "attacks": 2,
+                    "weaponId": "kfjSk65e",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "2",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "23TvtrB",
+            "cost": 55,
+            "name": "Gator",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 4,
+            "upgrades": [
+                "J1"
+            ],
+            "equipment": [
+                {
+                    "id": "Y6qlmDbl",
+                    "name": "Bash",
+                    "type": "ArmyBookWeapon",
+                    "label": "Bash (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "m-NC5mq1",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "2pIl0HGH",
+                    "name": "Bludgeons",
+                    "type": "ArmyBookWeapon",
+                    "count": 2,
+                    "label": "Bludgeons (A1, Lance)",
+                    "attacks": 1,
+                    "weaponId": "xjahRkqB",
+                    "specialRules": [
+                        {
+                            "key": "lance",
+                            "name": "Lance",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 2
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "fearless",
+                    "name": "Fearless",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "predator",
+                    "name": "Predator",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "U6hwlur14RpnInZr",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "WDwpv",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "Y6qlmDbl",
+                    "name": "Bash",
+                    "type": "ArmyBookWeapon",
+                    "label": "Bash (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "m-NC5mq1",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "2pIl0HGH",
+                    "name": "Bludgeons",
+                    "type": "ArmyBookWeapon",
+                    "count": 2,
+                    "label": "Bludgeons (A1, Lance)",
+                    "attacks": 1,
+                    "weaponId": "xjahRkqB",
+                    "specialRules": [
+                        {
+                            "key": "lance",
+                            "name": "Lance",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 2
+                }
+            ]
+        },
+        {
+            "id": "23TvtrB",
+            "cost": 55,
+            "name": "Gator",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 4,
+            "upgrades": [
+                "J1"
+            ],
+            "equipment": [
+                {
+                    "id": "Y6qlmDbl",
+                    "name": "Bash",
+                    "type": "ArmyBookWeapon",
+                    "label": "Bash (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "m-NC5mq1",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "2pIl0HGH",
+                    "name": "Bludgeons",
+                    "type": "ArmyBookWeapon",
+                    "count": 2,
+                    "label": "Bludgeons (A1, Lance)",
+                    "attacks": 1,
+                    "weaponId": "xjahRkqB",
+                    "specialRules": [
+                        {
+                            "key": "lance",
+                            "name": "Lance",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 2
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "fearless",
+                    "name": "Fearless",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "predator",
+                    "name": "Predator",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "modify": false,
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "U6hwlur14RpnInZr",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "cSTP0",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "Y6qlmDbl",
+                    "name": "Bash",
+                    "type": "ArmyBookWeapon",
+                    "label": "Bash (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "m-NC5mq1",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "2pIl0HGH",
+                    "name": "Bludgeons",
+                    "type": "ArmyBookWeapon",
+                    "count": 2,
+                    "label": "Bludgeons (A1, Lance)",
+                    "attacks": 1,
+                    "weaponId": "xjahRkqB",
+                    "specialRules": [
+                        {
+                            "key": "lance",
+                            "name": "Lance",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 2
+                }
+            ]
+        },
+        {
+            "id": "_XxIYpx",
+            "cost": 35,
+            "name": "Gecko Sniper",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [],
+            "equipment": [
+                {
+                    "id": "WIQQtqrV",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "2Ox5FTEq",
+                    "name": "Sniper Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Sniper Rifle (30\", A1, AP(1), Reliable)",
+                    "range": 30,
+                    "attacks": 1,
+                    "weaponId": "2Ox5FTEq",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "reliable",
+                            "name": "Reliable",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "fearless",
+                    "name": "Fearless",
+                    "modify": false,
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "modify": false,
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": [],
+            "armyId": "U6hwlur14RpnInZr",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "WSKvS",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "WIQQtqrV",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "2Ox5FTEq",
+                    "name": "Sniper Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Sniper Rifle (30\", A1, AP(1), Reliable)",
+                    "range": 30,
+                    "attacks": 1,
+                    "weaponId": "2Ox5FTEq",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "reliable",
+                            "name": "Reliable",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        }
+    ],
+    "points": 300,
+    "isCloud": false,
+    "modified": "2024-02-15T23:03:11.194Z",
+    "gameSystem": "gff",
+    "competitive": true,
+    "pointsLimit": 300,
+    "unitPreview": null,
+    "campaignMode": false,
+    "narrativeMode": false,
+    "selectedUnitId": "WSKvS",
+    "specialRules": [
+        {
+            "id": 51,
+            "name": "Deep Strike",
+            "description": "This model and up to half of its army get Ambush (must deploy within 3” of this model).",
+            "hasRating": false,
+            "aliasedRuleId": 51
+        },
+        {
+            "id": 346,
+            "name": "Predator",
+            "aliasedRuleId": null,
+            "description": "For each unmodified roll of 6 to hit when attacking, this model may roll +1 attack with that weapon. This rule doesn’t apply to newly generated attacks.",
+            "hasRating": false
+        },
+        {
+            "id": 857,
+            "name": "Heavy Shield",
+            "description": "Attacks targeting units where all models have this rule count as having AP(-1), to a min. of AP(0).",
+            "hasRating": false,
+            "aliasedRuleId": 857
+        },
+        {
+            "id": 858,
+            "name": "Shield Wall",
+            "aliasedRuleId": null,
+            "description": "This model gets +1 to defense rolls against hits that are not from spells.",
+            "hasRating": false
+        },
+        {
+            "id": 275,
+            "name": "Will of the Gods",
+            "aliasedRuleId": null,
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee or shooting (pick one). This effect lasts until the end of the round.",
+            "hasRating": false
+        },
+        {
+            "id": 139,
+            "name": "Teleport",
+            "aliasedRuleId": null,
+            "description": "Once per activation, before attacking, place this model anywhere within 6”.",
+            "hasRating": false
+        },
+        {
+            "id": 245,
+            "name": "Good Shot",
+            "aliasedRuleId": null,
+            "description": "This model shoots at Quality 4+.",
+            "hasRating": false
+        },
+        {
+            "id": 112,
+            "name": "Beacon",
+            "aliasedRuleId": null,
+            "description": "Friendly units using Ambush may ignore distance restrictions from enemies if they are deployed within 6” of this model.",
+            "hasRating": false
+        },
+        {
+            "id": 446,
+            "name": "Devour",
+            "aliasedRuleId": null,
+            "description": "Whenever this model attacks in melee, roll one die. On a 6+ the target takes 1 wound.",
+            "hasRating": false
+        },
+        {
+            "id": 470,
+            "name": "Bait",
+            "aliasedRuleId": null,
+            "description": "Before the game starts, pick one enemy unit. All models with this special rule get +2 to hit in melee when fighting it.",
+            "hasRating": false
+        },
+        {
+            "id": 474,
+            "name": "Primal Roar",
+            "aliasedRuleId": null,
+            "description": "Once per activation, pick 2 friendly units within 6” with Predator. Those units, and up to 3 friendly units within 6\" may roll extra attacks on unmodified rolls of 5-6 next time they attack.",
+            "hasRating": false
+        },
+        {
+            "id": 905,
+            "name": "Assault Bomb",
+            "aliasedRuleId": null,
+            "description": "Once per game, when this model moves over enemy units, pick one of them and roll one die, on a 2+ it takes 3 hits with AP(1).",
+            "hasRating": null
+        },
+        {
+            "id": 55,
+            "name": "Vicious Attack",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 55
+        },
+        {
+            "id": 424,
+            "name": "Pack Hunter",
+            "description": "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+            "hasRating": false,
+            "aliasedRuleId": 424
+        },
+        {
+            "id": 384,
+            "name": "Bounding",
+            "description": "When this model is activated, you may place it anywhere within D3+1\".",
+            "hasRating": false,
+            "aliasedRuleId": 384
+        }
+    ]
+}

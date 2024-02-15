@@ -1,0 +1,1277 @@
+{
+    "id": "DWLy6Lxv71XQ",
+    "name": "Soul-Snatcher Gang",
+    "units": [
+        {
+            "id": "QVwQQXN",
+            "cost": 50,
+            "name": "Cult Hitman",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 4,
+            "upgrades": [
+                "C1"
+            ],
+            "equipment": [
+                {
+                    "id": "AroAbCsg",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "umHMZ-Ik6",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "5HrEUnYw",
+                    "name": "Cult Pistol",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Cult Pistol (12\", A2)",
+                    "range": 12,
+                    "attacks": 2,
+                    "weaponId": "RgqMq0ME",
+                    "specialRules": [],
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "umHMZ-Ik6",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "hero",
+                    "name": "Hero",
+                    "rating": ""
+                },
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "rating": ""
+                },
+                {
+                    "key": "takedown",
+                    "name": "Takedown",
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "zz3kp5ry7ks6mxcx",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "sJlPV",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "umHMZ-Ik6",
+                    "upgrade": {
+                        "id": "gF9u_h9",
+                        "uid": "AE8iAT2",
+                        "label": "Replace  Cult Pistol and CCW",
+                        "options": null,
+                        "parentPackageUid": "C1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Cult Pistol",
+                            "CCW"
+                        ]
+                    },
+                    "option": {
+                        "uid": "iaYBroJ",
+                        "cost": 10,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "QVwQQXN",
+                                "cost": 10
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "qFNiuv8I",
+                                "name": "Toxin Blades",
+                                "type": "ArmyBookWeapon",
+                                "label": "Toxin Blades (A4, AP(1), Poison)",
+                                "attacks": 4,
+                                "weaponId": "qFNiuv8I",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(1)",
+                                        "rating": 1
+                                    },
+                                    {
+                                        "key": "poison",
+                                        "name": "Poison",
+                                        "type": "ArmyBookRule",
+                                        "label": "Poison",
+                                        "rating": ""
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Toxin Blades (A4, AP(1), Poison)",
+                        "proposedCost": 30,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "C1",
+                        "parentSectionUid": "AE8iAT2",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Cult Hitman",
+                                "newCostPrecise": "8.6",
+                                "newCostRounded": 10,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "iaYBroJ"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "qFNiuv8I",
+                    "name": "Toxin Blades",
+                    "type": "ArmyBookWeapon",
+                    "label": "Toxin Blades (A4, AP(1), Poison)",
+                    "attacks": 4,
+                    "weaponId": "qFNiuv8I",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(1)",
+                            "rating": 1
+                        },
+                        {
+                            "key": "poison",
+                            "name": "Poison",
+                            "type": "ArmyBookRule",
+                            "label": "Poison",
+                            "rating": ""
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "t2ehUmj",
+            "cost": 35,
+            "name": "Minions",
+            "size": 3,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "D1"
+            ],
+            "equipment": [
+                {
+                    "id": "w4DyLplT",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3
+                },
+                {
+                    "id": "ar_e50-g",
+                    "name": "Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Rifle (24\", A1)",
+                    "range": 24,
+                    "attacks": 1,
+                    "weaponId": "ar_e50-g",
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "VB7kOWBF1",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "zz3kp5ry7ks6mxcx",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "fm66s",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "VB7kOWBF1",
+                    "upgrade": {
+                        "id": "NnCDmZf",
+                        "uid": "9sQ0YE5",
+                        "label": "Replace one Rifles",
+                        "options": null,
+                        "parentPackageUid": "D1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "affects": {
+                            "type": "exactly",
+                            "value": 1
+                        },
+                        "targets": [
+                            "Rifles"
+                        ]
+                    },
+                    "option": {
+                        "uid": "LEovUqa",
+                        "cost": 10,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "t2ehUmj",
+                                "cost": 10
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Drum Rifle",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Drum Rifle (18\", A2, Rending)",
+                                "range": 18,
+                                "attacks": 2,
+                                "weaponId": "HGWJuWlP",
+                                "specialRules": [
+                                    {
+                                        "name": "Rending"
+                                    }
+                                ],
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Drum Rifle (18\", A2, Rending)",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "D1",
+                        "parentSectionUid": "9sQ0YE5",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Minions",
+                                "newCostPrecise": "8.5",
+                                "newCostRounded": 10,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "LEovUqa"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "w4DyLplT",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3
+                },
+                {
+                    "id": "ar_e50-g",
+                    "name": "Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Rifle (24\", A1)",
+                    "range": 24,
+                    "attacks": 1,
+                    "weaponId": "ar_e50-g",
+                    "specialRules": [],
+                    "count": 2,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "VB7kOWBF1",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "name": "Drum Rifle",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Drum Rifle (18\", A2, Rending)",
+                    "range": 18,
+                    "attacks": 2,
+                    "weaponId": "HGWJuWlP",
+                    "specialRules": [
+                        {
+                            "name": "Rending"
+                        }
+                    ],
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "wg6fbNx",
+            "cost": 20,
+            "name": "Neophyte",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 4,
+            "upgrades": [
+                "F1",
+                "H1"
+            ],
+            "equipment": [
+                {
+                    "id": "w4DyLplT",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "ar_e50-g",
+                    "name": "Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Rifle (24\", A1)",
+                    "range": 24,
+                    "attacks": 1,
+                    "weaponId": "ar_e50-g",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "twT1cSXQL",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "zz3kp5ry7ks6mxcx",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "p1vHP",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "twT1cSXQL",
+                    "upgrade": {
+                        "id": "03JAUwa",
+                        "uid": "pt9e8V0",
+                        "label": "Replace Rifle",
+                        "options": null,
+                        "parentPackageUid": "F1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Rifle"
+                        ]
+                    },
+                    "option": {
+                        "uid": "qGZEdE1",
+                        "cost": 30,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "wg6fbNx",
+                                "cost": 30
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "_OuuPXyd",
+                                "name": "Heavy Machinegun",
+                                "type": "ArmyBookWeapon",
+                                "label": "Heavy Machinegun (30\", A3, AP(1))",
+                                "range": 30,
+                                "attacks": 3,
+                                "weaponId": "_OuuPXyd",
+                                "specialRules": [
+                                    {
+                                        "name": "AP",
+                                        "rating": 1
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Heavy Machinegun (30\", A3, AP(1))",
+                        "proposedCost": 40,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "F1",
+                        "parentSectionUid": "pt9e8V0",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Neophyte",
+                                "newCostPrecise": "29.8",
+                                "newCostRounded": 30,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "qGZEdE1"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "w4DyLplT",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "_OuuPXyd",
+                    "name": "Heavy Machinegun",
+                    "type": "ArmyBookWeapon",
+                    "label": "Heavy Machinegun (30\", A3, AP(1))",
+                    "range": 30,
+                    "attacks": 3,
+                    "weaponId": "_OuuPXyd",
+                    "specialRules": [
+                        {
+                            "name": "AP",
+                            "rating": 1
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "wg6fbNx",
+            "cost": 20,
+            "name": "Neophyte",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 4,
+            "upgrades": [
+                "F1",
+                "H1"
+            ],
+            "equipment": [
+                {
+                    "id": "w4DyLplT",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "lypXkHdLI",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "ar_e50-g",
+                    "name": "Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Rifle (24\", A1)",
+                    "range": 24,
+                    "attacks": 1,
+                    "weaponId": "ar_e50-g",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "KD0A9kcVQ",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "zz3kp5ry7ks6mxcx",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "Pahqx",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "KD0A9kcVQ",
+                    "upgrade": {
+                        "id": "03JAUwa",
+                        "uid": "pt9e8V0",
+                        "label": "Replace Rifle",
+                        "options": null,
+                        "parentPackageUid": "F1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Rifle"
+                        ]
+                    },
+                    "option": {
+                        "uid": "4UbMHBG",
+                        "cost": 10,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "wg6fbNx",
+                                "cost": 10
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "PDXNYKQP",
+                                "name": "Web Carbine",
+                                "type": "ArmyBookWeapon",
+                                "label": "Web Carbine (18\", A2, Rending)",
+                                "range": 18,
+                                "attacks": 2,
+                                "weaponId": "PDXNYKQP",
+                                "specialRules": [
+                                    {
+                                        "name": "Rending",
+                                        "type": "ArmyBookRule",
+                                        "label": "Rending",
+                                        "modify": false
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Web Carbine (18\", A2, Rending)",
+                        "proposedCost": 25,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "F1",
+                        "parentSectionUid": "pt9e8V0",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Neophyte",
+                                "newCostPrecise": "10.1",
+                                "newCostRounded": 10,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "4UbMHBG"
+                    }
+                },
+                {
+                    "instanceId": "lypXkHdLI",
+                    "upgrade": {
+                        "id": "3c3u1Ez",
+                        "uid": "0i8pABP",
+                        "label": "Replace CCW",
+                        "options": null,
+                        "parentPackageUid": "F1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "CCW"
+                        ]
+                    },
+                    "option": {
+                        "uid": "7uMWwko",
+                        "cost": 10,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "wg6fbNx",
+                                "cost": 10
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "zfYzESZW",
+                                "name": "Heavy Pick",
+                                "type": "ArmyBookWeapon",
+                                "label": "Heavy Pick (A2, AP(1), Rending)",
+                                "range": 0,
+                                "attacks": 2,
+                                "weaponId": "zfYzESZW",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(1)",
+                                        "modify": false,
+                                        "rating": 1
+                                    },
+                                    {
+                                        "key": "rending",
+                                        "name": "Rending",
+                                        "type": "ArmyBookRule",
+                                        "label": "Rending",
+                                        "modify": false
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Heavy Pick (A2, AP(1), Rending)",
+                        "proposedCost": 10,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "F1",
+                        "parentSectionUid": "0i8pABP",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Neophyte",
+                                "newCostPrecise": "10.5",
+                                "newCostRounded": 10,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "7uMWwko"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "PDXNYKQP",
+                    "name": "Web Carbine",
+                    "type": "ArmyBookWeapon",
+                    "label": "Web Carbine (18\", A2, Rending)",
+                    "range": 18,
+                    "attacks": 2,
+                    "weaponId": "PDXNYKQP",
+                    "specialRules": [
+                        {
+                            "name": "Rending",
+                            "type": "ArmyBookRule",
+                            "label": "Rending",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                },
+                {
+                    "id": "zfYzESZW",
+                    "name": "Heavy Pick",
+                    "type": "ArmyBookWeapon",
+                    "label": "Heavy Pick (A2, AP(1), Rending)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "zfYzESZW",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(1)",
+                            "modify": false,
+                            "rating": 1
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "type": "ArmyBookRule",
+                            "label": "Rending",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "QhBJKna",
+            "cost": 35,
+            "name": "Elite Snatcher",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 3,
+            "upgrades": [
+                "J1"
+            ],
+            "equipment": [
+                {
+                    "id": "OTMhQDl9",
+                    "name": "Heavy Claws",
+                    "type": "ArmyBookWeapon",
+                    "label": "Heavy Claws (A2, AP(1), Rending)",
+                    "attacks": 2,
+                    "weaponId": "OTMhQDl9",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "ambush",
+                    "name": "Ambush",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "regeneration",
+                    "name": "Regeneration",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "zz3kp5ry7ks6mxcx",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "CPtLG",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "aGAftBVNv",
+                    "upgrade": {
+                        "id": "QWydUNu",
+                        "uid": "8Js-iCM",
+                        "label": "Upgrade with",
+                        "options": null,
+                        "parentPackageUid": "J1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "upgrade"
+                    },
+                    "option": {
+                        "uid": "YJcOaiD",
+                        "cost": 20,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "8V1jGIF",
+                                "cost": 20
+                            },
+                            {
+                                "unitId": "QhBJKna",
+                                "cost": 20
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Mind Snatcher",
+                                "type": "ArmyBookItem",
+                                "label": "Mind Snatcher (Caster(+1))",
+                                "content": [
+                                    {
+                                        "key": "caster",
+                                        "name": "Caster",
+                                        "type": "ArmyBookRule",
+                                        "label": "Caster(+1)",
+                                        "modify": true,
+                                        "rating": 1,
+                                        "count": 1,
+                                        "dependencies": []
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Mind Snatcher (Caster(+1))",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "J1",
+                        "parentSectionUid": "8Js-iCM",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Soul-Snatcher",
+                                "newCostPrecise": "20.0",
+                                "newCostRounded": 20,
+                                "isValid": true
+                            },
+                            {
+                                "unitName": "Elite Snatcher",
+                                "newCostPrecise": "20.0",
+                                "newCostRounded": 20,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "YJcOaiD"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "OTMhQDl9",
+                    "name": "Heavy Claws",
+                    "type": "ArmyBookWeapon",
+                    "label": "Heavy Claws (A2, AP(1), Rending)",
+                    "attacks": 2,
+                    "weaponId": "OTMhQDl9",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "name": "Mind Snatcher",
+                    "type": "ArmyBookItem",
+                    "label": "Mind Snatcher (Caster(+1))",
+                    "content": [
+                        {
+                            "key": "caster",
+                            "name": "Caster",
+                            "type": "ArmyBookRule",
+                            "label": "Caster(+1)",
+                            "modify": true,
+                            "rating": 1,
+                            "count": 1,
+                            "dependencies": []
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "Hos9ia8",
+            "cost": 30,
+            "name": "Mutant Brute",
+            "size": 1,
+            "valid": true,
+            "defense": 4,
+            "quality": 3,
+            "upgrades": [
+                "I1"
+            ],
+            "equipment": [
+                {
+                    "id": "zfYzESZW",
+                    "name": "Heavy Pick",
+                    "type": "ArmyBookWeapon",
+                    "label": "Heavy Pick (A2, AP(1), Rending)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "zfYzESZW",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "N2KbUBpl0",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "regeneration",
+                    "name": "Regeneration",
+                    "rating": ""
+                },
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "zz3kp5ry7ks6mxcx",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "Q41zE",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "N2KbUBpl0",
+                    "upgrade": {
+                        "id": "zAp_djR",
+                        "uid": "G5po4_b",
+                        "label": "Replace Heavy Pick",
+                        "options": null,
+                        "parentPackageUid": "I1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Heavy Pick"
+                        ]
+                    },
+                    "option": {
+                        "uid": "6AKQA",
+                        "cost": 20,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "Hos9ia8",
+                                "cost": 20
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Great Weapon",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Great Weapon (A3, AP(4))",
+                                "range": 0,
+                                "attacks": 3,
+                                "weaponId": "4IqIFErO",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(4)",
+                                        "modify": false,
+                                        "rating": 4
+                                    }
+                                ],
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Great Weapon (A3, AP(4))",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "I1",
+                        "parentSectionUid": "G5po4_b",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Mutant Brute",
+                                "newCostPrecise": "18.3",
+                                "newCostRounded": 20,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "6AKQA"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "name": "Great Weapon",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Great Weapon (A3, AP(4))",
+                    "range": 0,
+                    "attacks": 3,
+                    "weaponId": "4IqIFErO",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(4)",
+                            "modify": false,
+                            "rating": 4
+                        }
+                    ],
+                    "dependencies": []
+                }
+            ]
+        }
+    ],
+    "points": 300,
+    "isCloud": false,
+    "modified": "2024-02-12T21:03:30.203Z",
+    "gameSystem": "gff",
+    "competitive": true,
+    "pointsLimit": 300,
+    "unitPreview": null,
+    "campaignMode": true,
+    "narrativeMode": false,
+    "selectedUnitId": "Pahqx",
+    "undoUnitRemove": [
+        {
+            "id": "8V1jGIF",
+            "xp": 0,
+            "cost": 30,
+            "name": "Soul-Snatcher",
+            "size": 1,
+            "notes": null,
+            "valid": true,
+            "armyId": "zz3kp5ry7ks6mxcx",
+            "sortId": 6,
+            "traits": [],
+            "defense": 4,
+            "loadout": [
+                {
+                    "id": "OTMhQDl9",
+                    "name": "Heavy Claws",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Heavy Claws (A2, AP(1), Rending)",
+                    "attacks": 2,
+                    "weaponId": "OTMhQDl9",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "modify": false,
+                            "rating": "1"
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "modify": false,
+                            "rating": ""
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ],
+            "quality": 3,
+            "combined": false,
+            "upgrades": [
+                "J1"
+            ],
+            "equipment": [
+                {
+                    "id": "OTMhQDl9",
+                    "name": "Heavy Claws",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Heavy Claws (A2, AP(1), Rending)",
+                    "attacks": 2,
+                    "weaponId": "OTMhQDl9",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "modify": false,
+                            "rating": "1"
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "modify": false,
+                            "rating": ""
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ],
+            "joinToUnit": null,
+            "selectionId": "5Klpz",
+            "specialRules": [
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "selectedUpgrades": [],
+            "disabledUpgradeSections": []
+        }
+    ],
+    "specialRules": [
+        {
+            "id": 283,
+            "name": "Survey Vehicle",
+            "aliasedRuleId": null,
+            "description": "Once per activation, before attacking, pick one enemy unit within 18”. Next time a friendly unit shoots at it, it gets +1 to hit.",
+            "hasRating": false
+        },
+        {
+            "id": 279,
+            "name": "Flare Gun",
+            "aliasedRuleId": null,
+            "description": "Once per activation, pick one friendly unit within 12”. That unit, and up to 3 friendly units within 6\" gets +2\" on Advance and +4\" on Rush/Charge next time it moves.",
+            "hasRating": false
+        },
+        {
+            "id": 561,
+            "name": "Cult Banner",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round get Regeneration. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 561
+        },
+        {
+            "id": 55,
+            "name": "Agitator",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 55
+        },
+        {
+            "id": 552,
+            "name": "Spotter",
+            "aliasedRuleId": null,
+            "description": "Once per activation, before attacking, pick one friendly unit within 12”. That unit, and up to 3 friendly units within 6\" gets +6\" range next time it shoots.",
+            "hasRating": null
+        },
+        {
+            "id": 370,
+            "name": "Warning Cry",
+            "aliasedRuleId": null,
+            "description": "Enemy units can’t be set up within 12” of this model when using Ambush.",
+            "hasRating": false
+        },
+        {
+            "id": 424,
+            "name": "Tactical Console",
+            "description": "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+            "hasRating": false,
+            "aliasedRuleId": 424
+        },
+        {
+            "id": 97,
+            "name": "Takedown",
+            "aliasedRuleId": null,
+            "description": "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
+            "hasRating": false
+        },
+        {
+            "id": 210,
+            "name": "Experiments",
+            "description": "When in melee, roll one die and apply one bonus to models with this rule:\n* 1-3: Attacks get Rending\n* 4-6: Attacks get AP(+1)",
+            "hasRating": false,
+            "aliasedRuleId": 210
+        },
+        {
+            "id": 52,
+            "name": "Megaphone",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round move +2” on Advance, and +4” on Rush/Charge. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 52
+        },
+        {
+            "id": 281,
+            "name": "Resistance",
+            "aliasedRuleId": null,
+            "description": "When taking a wound, roll one die, and on a 6+ it is ignored. If the wound was from a spell, then it is ignored on a 2+ instead.",
+            "hasRating": false
+        }
+    ]
+}

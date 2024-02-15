@@ -1,0 +1,1595 @@
+{
+    "id": "JQSYmuI1vgpT",
+    "name": "Ratmen Clans Gang",
+    "units": [
+        {
+            "id": "UcqGeeC",
+            "cost": 25,
+            "name": "Clan Leader",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "B1",
+                "D1"
+            ],
+            "equipment": [
+                {
+                    "id": "uRWOCxTU",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "0lZSjlZvz",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "JxLx21Jx",
+                    "name": "Master Pistol",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Master Pistol (12\", A2)",
+                    "range": 12,
+                    "attacks": 2,
+                    "weaponId": "2YDv_eoi",
+                    "specialRules": [],
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "6G7EREwbj",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "hero",
+                    "name": "Hero",
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "hk70l4d471plza00",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "YP-pM",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "EW9oVhAin",
+                    "upgrade": {
+                        "id": "YNarRqA",
+                        "uid": "kkjCHPx",
+                        "label": "Upgrade with one",
+                        "options": null,
+                        "isHeroUpgrade": true,
+                        "parentPackageUid": "D1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "upgrade",
+                        "select": {
+                            "type": "exactly",
+                            "value": 1
+                        }
+                    },
+                    "option": {
+                        "uid": "bPFmwzb",
+                        "cost": 40,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "iLcYp6m",
+                                "cost": 40
+                            },
+                            {
+                                "unitId": "UcqGeeC",
+                                "cost": 40
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Shaman",
+                                "type": "ArmyBookItem",
+                                "label": "Shaman (Caster(2))",
+                                "content": [
+                                    {
+                                        "key": "caster",
+                                        "name": "Caster",
+                                        "type": "ArmyBookRule",
+                                        "label": "Caster(2)",
+                                        "rating": 2,
+                                        "count": 1,
+                                        "dependencies": []
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Shaman (Caster(2))",
+                        "proposedCost": 20,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "D1",
+                        "parentSectionUid": "kkjCHPx",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Elite Champion",
+                                "newCostPrecise": "40.0",
+                                "newCostRounded": 40,
+                                "isValid": true
+                            },
+                            {
+                                "unitName": "Clan Leader",
+                                "newCostPrecise": "40.0",
+                                "newCostRounded": 40,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "bPFmwzb"
+                    }
+                },
+                {
+                    "instanceId": "0lZSjlZvz",
+                    "upgrade": {
+                        "id": "YNa-Zyb",
+                        "uid": "u-eaXYF",
+                        "label": "Replace CCW",
+                        "options": null,
+                        "parentPackageUid": "B1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "CCW"
+                        ]
+                    },
+                    "option": {
+                        "uid": "WM7gZSg",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "UcqGeeC",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Battle Claw",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Battle Claw (A2, AP(4))",
+                                "range": 0,
+                                "attacks": 2,
+                                "weaponId": "rQBWcKqK",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(4)",
+                                        "modify": false,
+                                        "rating": 4
+                                    }
+                                ],
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Battle Claw (A2, AP(4))",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "B1",
+                        "parentSectionUid": "u-eaXYF",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Clan Leader",
+                                "newCostPrecise": "6.9",
+                                "newCostRounded": 5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "WM7gZSg"
+                    }
+                },
+                {
+                    "instanceId": "6G7EREwbj",
+                    "upgrade": {
+                        "id": "HGGIFK_",
+                        "uid": "M46odDM",
+                        "label": "Replace Master Pistol",
+                        "options": null,
+                        "parentPackageUid": "B1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Master Pistol"
+                        ]
+                    },
+                    "option": {
+                        "uid": "SO8Nt",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "UcqGeeC",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Master Carbine",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Master Carbine (18\", A3)",
+                                "range": 18,
+                                "attacks": 3,
+                                "weaponId": "Xa5_qj7a",
+                                "specialRules": [],
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Master Carbine (18\", A3)",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "B1",
+                        "parentSectionUid": "M46odDM",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Clan Leader",
+                                "newCostPrecise": "6.6",
+                                "newCostRounded": 5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "SO8Nt"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "name": "Shaman",
+                    "type": "ArmyBookItem",
+                    "label": "Shaman (Caster(2))",
+                    "content": [
+                        {
+                            "key": "caster",
+                            "name": "Caster",
+                            "type": "ArmyBookRule",
+                            "label": "Caster(2)",
+                            "rating": 2,
+                            "count": 1,
+                            "dependencies": []
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                },
+                {
+                    "name": "Battle Claw",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Battle Claw (A2, AP(4))",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "rQBWcKqK",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(4)",
+                            "modify": false,
+                            "rating": 4
+                        }
+                    ],
+                    "dependencies": []
+                },
+                {
+                    "name": "Master Carbine",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Master Carbine (18\", A3)",
+                    "range": 18,
+                    "attacks": 3,
+                    "weaponId": "Xa5_qj7a",
+                    "specialRules": [],
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "0luuGfX",
+            "cost": 15,
+            "name": "Saboteur",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "H1"
+            ],
+            "equipment": [
+                {
+                    "id": "iGtq3lU5",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "5HrEUnYw",
+                    "name": "Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Pistol (12\", A1)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "5HrEUnYw",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "gTIKlyQvQ",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "scout",
+                    "name": "Scout",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "hk70l4d471plza00",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "FDsNf",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "gTIKlyQvQ",
+                    "upgrade": {
+                        "id": "nORE9sd",
+                        "uid": "awHZVwj",
+                        "label": "Replace Pistol",
+                        "options": null,
+                        "parentPackageUid": "H1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Pistol"
+                        ]
+                    },
+                    "option": {
+                        "uid": "wb4PX5H",
+                        "cost": 15,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "0luuGfX",
+                                "cost": 15
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "V_8i8sVX",
+                                "name": "Sniper Carbine",
+                                "type": "ArmyBookWeapon",
+                                "label": "Sniper Carbine (18\", A1, AP(1), Reliable)",
+                                "range": 18,
+                                "attacks": 1,
+                                "weaponId": "VBqJ2UFs",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(1)",
+                                        "modify": false,
+                                        "rating": 1
+                                    },
+                                    {
+                                        "key": "reliable",
+                                        "name": "Reliable",
+                                        "type": "ArmyBookRule",
+                                        "label": "Reliable",
+                                        "modify": false
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Sniper Carbine (18\", A1, AP(1), Sniper)",
+                        "proposedCost": 55,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "H1",
+                        "parentSectionUid": "mb6FPmJ",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Saboteur",
+                                "newCostPrecise": "14.1",
+                                "newCostRounded": 15,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "wb4PX5H"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "iGtq3lU5",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "V_8i8sVX",
+                    "name": "Sniper Carbine",
+                    "type": "ArmyBookWeapon",
+                    "label": "Sniper Carbine (18\", A1, AP(1), Reliable)",
+                    "range": 18,
+                    "attacks": 1,
+                    "weaponId": "VBqJ2UFs",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(1)",
+                            "modify": false,
+                            "rating": 1
+                        },
+                        {
+                            "key": "reliable",
+                            "name": "Reliable",
+                            "type": "ArmyBookRule",
+                            "label": "Reliable",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "vYSjjR0",
+            "cost": 20,
+            "name": "Specialist",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "G1"
+            ],
+            "equipment": [
+                {
+                    "id": "uRWOCxTU",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "gN1LAzCn",
+                    "name": "Plasma Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Plasma Rifle (24\", A1, AP(4))",
+                    "range": 24,
+                    "attacks": 1,
+                    "weaponId": "gN1LAzCn",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "4",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "relentless",
+                    "name": "Relentless",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "hk70l4d471plza00",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "0j4AX",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "uRWOCxTU",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "gN1LAzCn",
+                    "name": "Plasma Rifle",
+                    "type": "ArmyBookWeapon",
+                    "label": "Plasma Rifle (24\", A1, AP(4))",
+                    "range": 24,
+                    "attacks": 1,
+                    "weaponId": "gN1LAzCn",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "4",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "qrrjsbe",
+            "cost": 35,
+            "name": "Stalkers",
+            "size": 3,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "F1"
+            ],
+            "equipment": [
+                {
+                    "id": "iGtq3lU5",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "TRCSdyX5c",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "5HrEUnYw",
+                    "name": "Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Pistol (12\", A1)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "5HrEUnYw",
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "fENSMDAGF",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "hk70l4d471plza00",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "mTkrB",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "TRCSdyX5c",
+                    "upgrade": {
+                        "id": "3n56nAB",
+                        "uid": "j8SxFiJ",
+                        "label": "Replace one CCWs",
+                        "options": null,
+                        "parentPackageUid": "F1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "affects": {
+                            "type": "exactly",
+                            "value": 1
+                        },
+                        "targets": [
+                            "CCWs"
+                        ]
+                    },
+                    "option": {
+                        "uid": "sr106zz",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "qrrjsbe",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "ZSAHEzBB",
+                                "name": "Combat Drill",
+                                "type": "ArmyBookWeapon",
+                                "label": "Combat Drill (A2, AP(1), Rending)",
+                                "range": 0,
+                                "attacks": 2,
+                                "weaponId": "ZSAHEzBB",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(1)",
+                                        "modify": false,
+                                        "rating": 1
+                                    },
+                                    {
+                                        "key": "rending",
+                                        "name": "Rending",
+                                        "type": "ArmyBookRule",
+                                        "label": "Rending",
+                                        "modify": false
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Combat Drill (A2, AP(1), Rending)",
+                        "proposedCost": 5,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "F1",
+                        "parentSectionUid": "j8SxFiJ",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Stalkers",
+                                "newCostPrecise": "5.1",
+                                "newCostRounded": 5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "sr106zz"
+                    }
+                },
+                {
+                    "instanceId": "fENSMDAGF",
+                    "upgrade": {
+                        "id": "gpDTSRJ",
+                        "uid": "spTyq_a",
+                        "label": "Replace one Pistols",
+                        "options": null,
+                        "parentPackageUid": "F1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "affects": {
+                            "type": "exactly",
+                            "value": 1
+                        },
+                        "targets": [
+                            "Pistols"
+                        ]
+                    },
+                    "option": {
+                        "uid": "Ar-tVjz",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "qrrjsbe",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "dGKJc4Nn",
+                                "name": "Plasma Pistol",
+                                "type": "ArmyBookWeapon",
+                                "label": "Plasma Pistol (12\", A1, AP(4))",
+                                "range": 12,
+                                "attacks": 1,
+                                "weaponId": "dGKJc4Nn",
+                                "specialRules": [
+                                    {
+                                        "name": "AP",
+                                        "rating": 4
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Plasma Pistol (12\", A1, AP(4))",
+                        "proposedCost": 5,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "F1",
+                        "parentSectionUid": "spTyq_a",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Stalkers",
+                                "newCostPrecise": "3.5",
+                                "newCostRounded": 5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "Ar-tVjz"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "iGtq3lU5",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 2,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "TRCSdyX5c",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "5HrEUnYw",
+                    "name": "Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Pistol (12\", A1)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "5HrEUnYw",
+                    "specialRules": [],
+                    "count": 2,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "fENSMDAGF",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "ZSAHEzBB",
+                    "name": "Combat Drill",
+                    "type": "ArmyBookWeapon",
+                    "label": "Combat Drill (A2, AP(1), Rending)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "ZSAHEzBB",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(1)",
+                            "modify": false,
+                            "rating": 1
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "type": "ArmyBookRule",
+                            "label": "Rending",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                },
+                {
+                    "id": "dGKJc4Nn",
+                    "name": "Plasma Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Plasma Pistol (12\", A1, AP(4))",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "dGKJc4Nn",
+                    "specialRules": [
+                        {
+                            "name": "AP",
+                            "rating": 4
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "AAy6wNG",
+            "cost": 45,
+            "name": "Crawlers",
+            "size": 3,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [
+                "E1",
+                "fN_Qf"
+            ],
+            "equipment": [
+                {
+                    "id": "uRWOCxTU",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "ErL_BEJc4",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "JxLx21Jx",
+                    "name": "Carbine",
+                    "type": "ArmyBookWeapon",
+                    "label": "Carbine (18\", A2)",
+                    "range": 18,
+                    "attacks": 2,
+                    "weaponId": "JxLx21Jx",
+                    "specialRules": [],
+                    "count": 3,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "ErL_BEJc4",
+                            "count": 1,
+                            "variant": "replace"
+                        },
+                        {
+                            "upgradeInstanceId": "3AqhqP1Uc",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "hk70l4d471plza00",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "01xQs",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "ErL_BEJc4",
+                    "upgrade": {
+                        "id": "OY52Sgo",
+                        "uid": "H7NGn",
+                        "label": "Replace one Carbine and CCW",
+                        "options": null,
+                        "parentPackageUid": "fN_Qf",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "affects": {
+                            "type": "exactly",
+                            "value": 1
+                        },
+                        "targets": [
+                            "Carbine",
+                            "CCW"
+                        ]
+                    },
+                    "option": {
+                        "uid": "aCg7f",
+                        "cost": -5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "AAy6wNG",
+                                "cost": -5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Sgt. Pistol",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Sgt. Pistol (12\", A1)",
+                                "range": 12,
+                                "attacks": 1,
+                                "weaponId": "1HINdgr0",
+                                "specialRules": [],
+                                "dependencies": [
+                                    {
+                                        "upgradeInstanceId": "2itnviKzO",
+                                        "count": 1,
+                                        "variant": "replace"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sgt. Hand Weapon",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Sgt. Hand Weapon (A2)",
+                                "range": 0,
+                                "attacks": 2,
+                                "weaponId": "c9dTSUKw",
+                                "specialRules": [],
+                                "dependencies": [
+                                    {
+                                        "upgradeInstanceId": "ANd6C_zgR",
+                                        "count": 1,
+                                        "variant": "replace"
+                                    }
+                                ]
+                            }
+                        ],
+                        "label": "Sgt. Pistol (12\", A1), Sgt. Hand Weapon (A2)",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "fN_Qf",
+                        "parentSectionUid": "H7NGn",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Crawlers",
+                                "newCostPrecise": "-2.7",
+                                "newCostRounded": -5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "aCg7f"
+                    }
+                },
+                {
+                    "instanceId": "3AqhqP1Uc",
+                    "upgrade": {
+                        "id": "ifA9zCR",
+                        "uid": "So7ZKmb",
+                        "label": "Replace one Carbines",
+                        "options": null,
+                        "parentPackageUid": "E1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "affects": {
+                            "type": "exactly",
+                            "value": 1
+                        },
+                        "targets": [
+                            "Carbines"
+                        ]
+                    },
+                    "option": {
+                        "uid": "dNTYp",
+                        "cost": 15,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "AAy6wNG",
+                                "cost": 15
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "_OuuPXyd",
+                                "name": "Heavy Machinegun",
+                                "type": "ArmyBookWeapon",
+                                "label": "Heavy Machinegun (30\", A3, AP(1))",
+                                "range": 30,
+                                "attacks": 3,
+                                "weaponId": "_OuuPXyd",
+                                "specialRules": [
+                                    {
+                                        "name": "AP",
+                                        "rating": 1
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Heavy Machinegun (30\", A3, AP(1))",
+                        "proposedCost": 25,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "E1",
+                        "parentSectionUid": "So7ZKmb",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Crawlers",
+                                "newCostPrecise": "17.2",
+                                "newCostRounded": 15,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "dNTYp"
+                    }
+                },
+                {
+                    "instanceId": "ANd6C_zgR",
+                    "upgrade": {
+                        "id": "UbsD2Mg",
+                        "uid": "ihPNW",
+                        "label": "Replace Sgt. Hand Weapon",
+                        "options": null,
+                        "parentPackageUid": "fN_Qf",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Sgt. Hand Weapon"
+                        ]
+                    },
+                    "option": {
+                        "uid": "kteug",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "AAy6wNG",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Battle Claw",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Battle Claw (A2, AP(4))",
+                                "range": 0,
+                                "attacks": 2,
+                                "weaponId": "rQBWcKqK",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(4)",
+                                        "modify": false,
+                                        "rating": 4
+                                    }
+                                ],
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Battle Claw (A2, AP(4))",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "fN_Qf",
+                        "parentSectionUid": "ihPNW",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Crawlers",
+                                "newCostPrecise": "6.9",
+                                "newCostRounded": 5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "kteug"
+                    }
+                },
+                {
+                    "instanceId": "2itnviKzO",
+                    "upgrade": {
+                        "id": "l7hH_Zl",
+                        "uid": "Ot_sF",
+                        "label": "Replace Sgt. Pistol",
+                        "options": null,
+                        "parentPackageUid": "fN_Qf",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Sgt. Pistol"
+                        ]
+                    },
+                    "option": {
+                        "uid": "exW6K",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "AAy6wNG",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Plasma Pistol",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "Plasma Pistol (12\", A1, AP(4))",
+                                "range": 12,
+                                "attacks": 1,
+                                "weaponId": "dGKJc4Nn",
+                                "specialRules": [
+                                    {
+                                        "name": "AP",
+                                        "rating": 4
+                                    }
+                                ],
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Plasma Pistol (12\", A1, AP(4))",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "fN_Qf",
+                        "parentSectionUid": "Ot_sF",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Crawlers",
+                                "newCostPrecise": "3.5",
+                                "newCostRounded": 5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "exW6K"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "uRWOCxTU",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 2,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "ErL_BEJc4",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "JxLx21Jx",
+                    "name": "Carbine",
+                    "type": "ArmyBookWeapon",
+                    "label": "Carbine (18\", A2)",
+                    "range": 18,
+                    "attacks": 2,
+                    "weaponId": "JxLx21Jx",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 3,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "ErL_BEJc4",
+                            "count": 1,
+                            "variant": "replace"
+                        },
+                        {
+                            "upgradeInstanceId": "3AqhqP1Uc",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                },
+                {
+                    "id": "_OuuPXyd",
+                    "name": "Heavy Machinegun",
+                    "type": "ArmyBookWeapon",
+                    "label": "Heavy Machinegun (30\", A3, AP(1))",
+                    "range": 30,
+                    "attacks": 3,
+                    "weaponId": "_OuuPXyd",
+                    "specialRules": [
+                        {
+                            "name": "AP",
+                            "rating": 1
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                },
+                {
+                    "name": "Battle Claw",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Battle Claw (A2, AP(4))",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "rQBWcKqK",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(4)",
+                            "modify": false,
+                            "rating": 4
+                        }
+                    ],
+                    "dependencies": []
+                },
+                {
+                    "name": "Plasma Pistol",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Plasma Pistol (12\", A1, AP(4))",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "dGKJc4Nn",
+                    "specialRules": [
+                        {
+                            "name": "AP",
+                            "rating": 4
+                        }
+                    ],
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "KXkYPJX",
+            "cost": 60,
+            "name": "Rat Ogre",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 4,
+            "upgrades": [
+                "J1"
+            ],
+            "equipment": [
+                {
+                    "id": "x387JSwl",
+                    "name": "Twin Combat Drill",
+                    "type": "ArmyBookWeapon",
+                    "label": "Twin Combat Drill (A4, AP(1), Rending)",
+                    "range": 0,
+                    "attacks": 4,
+                    "weaponId": "x387JSwl",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "oFe3AyxJy",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "hk70l4d471plza00",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "f8mGd",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "oFe3AyxJy",
+                    "upgrade": {
+                        "id": "Yq0K0mt",
+                        "uid": "Y33FCoa",
+                        "label": "Replace any Twin Combat Drill",
+                        "options": null,
+                        "parentPackageUid": "J1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "affects": {
+                            "type": "any"
+                        },
+                        "targets": [
+                            "Twin Combat Drill"
+                        ]
+                    },
+                    "option": {
+                        "uid": "KxOHwMC",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "KXkYPJX",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "id": "ApfY3gmB",
+                                "name": "Flamer",
+                                "type": "ArmyBookWeapon",
+                                "label": "Flamer (12\", A1, Blast(3), Reliable)",
+                                "range": 12,
+                                "attacks": 1,
+                                "weaponId": "-_T9wTAv",
+                                "specialRules": [
+                                    {
+                                        "key": "blast",
+                                        "name": "Blast",
+                                        "type": "ArmyBookRule",
+                                        "label": "Blast(3)",
+                                        "modify": false,
+                                        "rating": 3
+                                    },
+                                    {
+                                        "key": "reliable",
+                                        "name": "Reliable",
+                                        "type": "ArmyBookRule",
+                                        "label": "Reliable",
+                                        "modify": false
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            },
+                            {
+                                "id": "ZSAHEzBB",
+                                "name": "Combat Drill",
+                                "type": "ArmyBookWeapon",
+                                "label": "Combat Drill (A2, AP(1), Rending)",
+                                "range": 0,
+                                "attacks": 2,
+                                "weaponId": "ZSAHEzBB",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(1)",
+                                        "modify": false,
+                                        "rating": 1
+                                    },
+                                    {
+                                        "key": "rending",
+                                        "name": "Rending",
+                                        "type": "ArmyBookRule",
+                                        "label": "Rending",
+                                        "modify": false
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Flamer (12\", A1, Blast(3), Reliable), Combat Drill (A2, AP(1), Rending)",
+                        "proposedCost": 10,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "J1",
+                        "parentSectionUid": "Y33FCoa",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Rat Ogre",
+                                "newCostPrecise": "4.2",
+                                "newCostRounded": 5,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "KxOHwMC"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "ApfY3gmB",
+                    "name": "Flamer",
+                    "type": "ArmyBookWeapon",
+                    "label": "Flamer (12\", A1, Blast(3), Reliable)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "-_T9wTAv",
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "type": "ArmyBookRule",
+                            "label": "Blast(3)",
+                            "modify": false,
+                            "rating": 3
+                        },
+                        {
+                            "key": "reliable",
+                            "name": "Reliable",
+                            "type": "ArmyBookRule",
+                            "label": "Reliable",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                },
+                {
+                    "id": "ZSAHEzBB",
+                    "name": "Combat Drill",
+                    "type": "ArmyBookWeapon",
+                    "label": "Combat Drill (A2, AP(1), Rending)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "ZSAHEzBB",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(1)",
+                            "modify": false,
+                            "rating": 1
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "type": "ArmyBookRule",
+                            "label": "Rending",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        }
+    ],
+    "points": 300,
+    "isCloud": false,
+    "modified": "2024-02-12T20:57:32.922Z",
+    "gameSystem": "gff",
+    "competitive": true,
+    "pointsLimit": 300,
+    "unitPreview": null,
+    "campaignMode": true,
+    "narrativeMode": false,
+    "selectedUnitId": "FDsNf",
+    "specialRules": [
+        {
+            "id": 55,
+            "name": "Piper's Calling",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round get Furious. If they already had Furious, they get extra hits on unmodified rolls of 5-6 instead. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 55
+        },
+        {
+            "id": 1051,
+            "name": "Heavy Pierce",
+            "aliasedRuleId": null,
+            "description": "Whenever this model attacks in melee, roll one die. On a 6+ the target takes 3 hits with AP(1).",
+            "hasRating": null
+        },
+        {
+            "id": 126,
+            "name": "Repair",
+            "aliasedRuleId": null,
+            "description": "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+            "hasRating": false
+        },
+        {
+            "id": 229,
+            "name": "Lead from Behind",
+            "description": "Whenever a friendly unit within 12\" fails a morale test, it takes one wound, and up to 3 friendly units within 12\" of it automatically pass all morale tests until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 229
+        },
+        {
+            "id": 424,
+            "name": "Scurry Away",
+            "description": "Once per activation, before attacking, pick up to 3 other friendly units within 12”, which may move by up to 6\".",
+            "hasRating": false,
+            "aliasedRuleId": 424
+        },
+        {
+            "id": 224,
+            "name": "Safety in Numbers",
+            "description": "Once per activation, pick 2 friendly units within 12”. Those units, and up to 3 friendly units within 6\" get +1 to their next morale test roll.",
+            "hasRating": false,
+            "aliasedRuleId": 224
+        }
+    ]
+}

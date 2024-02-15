@@ -1,0 +1,887 @@
+{
+    "id": "gSKISls9Fe9b",
+    "name": "Machine Cult Gang",
+    "units": [
+        {
+            "id": "4ajpg-M",
+            "cost": 85,
+            "name": "High Priest",
+            "size": 1,
+            "valid": true,
+            "defense": 3,
+            "quality": 3,
+            "upgrades": [
+                "A1",
+                "C1"
+            ],
+            "equipment": [
+                {
+                    "id": "yemqTC6X",
+                    "name": "Axe-Halberd",
+                    "type": "ArmyBookWeapon",
+                    "label": "Axe-Halberd (A3, AP(4))",
+                    "range": 0,
+                    "attacks": 3,
+                    "weaponId": "yemqTC6X",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "4",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "BBQCG",
+                    "name": "Revolver",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Revolver (12\", A1, AP(1))",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "i8NKogRV",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "hero",
+                    "name": "Hero",
+                    "rating": ""
+                },
+                {
+                    "key": "regeneration",
+                    "name": "Regeneration",
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "7el7k3hgy5pb9o9i",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "SBeCX",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "yZ2QOmuTs",
+                    "upgrade": {
+                        "id": "T00Xx-K",
+                        "uid": "ilLvqMc",
+                        "label": "Upgrade with one",
+                        "options": null,
+                        "isHeroUpgrade": true,
+                        "parentPackageUid": "C1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "upgrade",
+                        "select": {
+                            "type": "exactly",
+                            "value": 1
+                        }
+                    },
+                    "option": {
+                        "uid": "WMrFSXc",
+                        "cost": 15,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "4ajpg-M",
+                                "cost": 15
+                            },
+                            {
+                                "unitId": "hvRc6eE",
+                                "cost": 15
+                            },
+                            {
+                                "unitId": "iGyqlfa",
+                                "cost": 15
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Engineer",
+                                "type": "ArmyBookItem",
+                                "label": "Engineer (Repair)",
+                                "content": [
+                                    {
+                                        "key": "repair",
+                                        "name": "Repair",
+                                        "type": "ArmyBookRule",
+                                        "label": "Repair",
+                                        "rating": "",
+                                        "count": 1,
+                                        "dependencies": []
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Engineer (Repair)",
+                        "proposedCost": 20,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "C1",
+                        "parentSectionUid": "ilLvqMc",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "High Priest",
+                                "newCostPrecise": "14.4",
+                                "newCostRounded": 15,
+                                "isValid": true
+                            },
+                            {
+                                "unitName": "Sect Leader",
+                                "newCostPrecise": "14.4",
+                                "newCostRounded": 15,
+                                "isValid": true
+                            },
+                            {
+                                "unitName": "Cult Leader",
+                                "newCostPrecise": "14.4",
+                                "newCostRounded": 15,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "WMrFSXc"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "yemqTC6X",
+                    "name": "Axe-Halberd",
+                    "type": "ArmyBookWeapon",
+                    "label": "Axe-Halberd (A3, AP(4))",
+                    "range": 0,
+                    "attacks": 3,
+                    "weaponId": "yemqTC6X",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "4",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "BBQCG",
+                    "name": "Revolver",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Revolver (12\", A1, AP(1))",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "i8NKogRV",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                },
+                {
+                    "name": "Engineer",
+                    "type": "ArmyBookItem",
+                    "label": "Engineer (Repair)",
+                    "content": [
+                        {
+                            "key": "repair",
+                            "name": "Repair",
+                            "type": "ArmyBookRule",
+                            "label": "Repair",
+                            "rating": "",
+                            "count": 1,
+                            "dependencies": []
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "L6kGWgk",
+            "cost": 20,
+            "name": "Cult Ranger",
+            "size": 1,
+            "valid": true,
+            "defense": 4,
+            "quality": 4,
+            "upgrades": [
+                "D1",
+                "FPgzL"
+            ],
+            "equipment": [
+                {
+                    "id": "Uek7nqRw",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "u42IQ0oq",
+                    "name": "R-Fusil",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "R-Fusil (18\", A1, Radiation)",
+                    "range": 18,
+                    "attacks": 1,
+                    "weaponId": "u42IQ0oq",
+                    "specialRules": [
+                        {
+                            "key": "radiation",
+                            "name": "Radiation",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "7el7k3hgy5pb9o9i",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "GGbGc",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "Uek7nqRw",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "u42IQ0oq",
+                    "name": "R-Fusil",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "R-Fusil (18\", A1, Radiation)",
+                    "range": 18,
+                    "attacks": 1,
+                    "weaponId": "u42IQ0oq",
+                    "specialRules": [
+                        {
+                            "key": "radiation",
+                            "name": "Radiation",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "L6kGWgk",
+            "cost": 20,
+            "name": "Cult Ranger",
+            "size": 1,
+            "valid": true,
+            "defense": 4,
+            "quality": 4,
+            "upgrades": [
+                "D1",
+                "FPgzL"
+            ],
+            "equipment": [
+                {
+                    "id": "Uek7nqRw",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "u42IQ0oq",
+                    "name": "R-Fusil",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "R-Fusil (18\", A1, Radiation)",
+                    "range": 18,
+                    "attacks": 1,
+                    "weaponId": "u42IQ0oq",
+                    "specialRules": [
+                        {
+                            "key": "radiation",
+                            "name": "Radiation",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "7el7k3hgy5pb9o9i",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "ZLiKQ",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "Uek7nqRw",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A1)",
+                    "range": 0,
+                    "attacks": 1,
+                    "weaponId": "4o5CBBZC",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "u42IQ0oq",
+                    "name": "R-Fusil",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "R-Fusil (18\", A1, Radiation)",
+                    "range": 18,
+                    "attacks": 1,
+                    "weaponId": "u42IQ0oq",
+                    "specialRules": [
+                        {
+                            "key": "radiation",
+                            "name": "Radiation",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "M2Yr_Lr",
+            "cost": 80,
+            "name": "Destroyer Cyborg",
+            "size": 1,
+            "valid": true,
+            "defense": 4,
+            "quality": 4,
+            "upgrades": [
+                "K1"
+            ],
+            "equipment": [
+                {
+                    "id": "42cIE5Xd",
+                    "name": "Cyborg Claw",
+                    "type": "ArmyBookWeapon",
+                    "label": "Cyborg Claw (A3)",
+                    "attacks": 3,
+                    "weaponId": "42cIE5Xd",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "LYTfLxn3",
+                    "name": "Gravity Cannon",
+                    "type": "ArmyBookWeapon",
+                    "label": "Gravity Cannon (24\", A4, Rending)",
+                    "range": 24,
+                    "attacks": 4,
+                    "weaponId": "LYTfLxn3",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "relentless",
+                    "name": "Relentless",
+                    "rating": ""
+                },
+                {
+                    "key": "slow",
+                    "name": "Slow",
+                    "rating": ""
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "rating": "3"
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "7el7k3hgy5pb9o9i",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "VL71h",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "42cIE5Xd",
+                    "name": "Cyborg Claw",
+                    "type": "ArmyBookWeapon",
+                    "label": "Cyborg Claw (A3)",
+                    "attacks": 3,
+                    "weaponId": "42cIE5Xd",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "LYTfLxn3",
+                    "name": "Gravity Cannon",
+                    "type": "ArmyBookWeapon",
+                    "label": "Gravity Cannon (24\", A4, Rending)",
+                    "range": 24,
+                    "attacks": 4,
+                    "weaponId": "LYTfLxn3",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "ykvshtT",
+            "cost": 40,
+            "name": "Sky Stalker",
+            "size": 1,
+            "valid": true,
+            "defense": 4,
+            "quality": 3,
+            "upgrades": [
+                "H1"
+            ],
+            "equipment": [
+                {
+                    "id": "XPGszGl0",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "WqEyKnUj",
+                    "name": "F-Carbine",
+                    "type": "ArmyBookWeapon",
+                    "label": "F-Carbine (18\", A2)",
+                    "range": 18,
+                    "attacks": 2,
+                    "weaponId": "WqEyKnUj",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "ambush",
+                    "name": "Ambush",
+                    "rating": ""
+                },
+                {
+                    "key": "flying",
+                    "name": "Flying",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "7el7k3hgy5pb9o9i",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "qSH_v",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "x7f8j_LHR",
+                    "upgrade": {
+                        "id": "KRYWBeV",
+                        "uid": "ODkU-GS",
+                        "label": "Upgrade with",
+                        "options": null,
+                        "parentPackageUid": "H1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "upgrade"
+                    },
+                    "option": {
+                        "uid": "g4hlgzF",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "ykvshtT",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "key": "cluster-grenades",
+                                "name": "Cluster Grenades",
+                                "type": "ArmyBookRule",
+                                "label": "Cluster Grenades",
+                                "rating": "",
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Cluster Grenades",
+                        "proposedCost": 60,
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "H1",
+                        "parentSectionUid": "ODkU-GS",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Sky Stalker",
+                                "newCostPrecise": "1.6",
+                                "newCostRounded": 0,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "g4hlgzF"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "XPGszGl0",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "WqEyKnUj",
+                    "name": "F-Carbine",
+                    "type": "ArmyBookWeapon",
+                    "label": "F-Carbine (18\", A2)",
+                    "range": 18,
+                    "attacks": 2,
+                    "weaponId": "WqEyKnUj",
+                    "specialRules": [],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "GGy44eL",
+            "cost": 30,
+            "name": "Sect Stalker",
+            "size": 1,
+            "valid": true,
+            "defense": 4,
+            "quality": 3,
+            "upgrades": [
+                "F1"
+            ],
+            "equipment": [
+                {
+                    "id": "Lfiql_sv",
+                    "name": "Dual S-Blade",
+                    "type": "ArmyBookWeapon",
+                    "label": "Dual S-Blade (A2, AP(1), Rending)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "Lfiql_sv",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "rating": "1",
+                            "modify": false
+                        },
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1,
+                    "dependencies": [
+                        {
+                            "upgradeInstanceId": "fmfuEMMP_",
+                            "count": 1,
+                            "variant": "replace"
+                        }
+                    ]
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "7el7k3hgy5pb9o9i",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "z2CC_",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "fmfuEMMP_",
+                    "upgrade": {
+                        "id": "wn_ClsT",
+                        "uid": "KssNAUH",
+                        "label": "Replace Dual S-Blade",
+                        "options": null,
+                        "parentPackageUid": "F1",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "replace",
+                        "targets": [
+                            "Dual S-Blade"
+                        ]
+                    },
+                    "option": {
+                        "uid": "u9bbB",
+                        "cost": 5,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "GGy44eL",
+                                "cost": 5
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "S-Razor and Claw",
+                                "type": "ArmyBookWeapon",
+                                "count": 1,
+                                "label": "S-Razor and Claw (A2, AP(2))",
+                                "range": 0,
+                                "attacks": 2,
+                                "weaponId": "U6Lgm4ha",
+                                "specialRules": [
+                                    {
+                                        "key": "ap",
+                                        "name": "AP",
+                                        "type": "ArmyBookRule",
+                                        "label": "AP(2)",
+                                        "modify": false,
+                                        "rating": "2"
+                                    }
+                                ],
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "S-Razor and Claw (A2, AP(2))",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "F1",
+                        "parentSectionUid": "KssNAUH",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Sect Stalker",
+                                "newCostPrecise": "1.0",
+                                "newCostRounded": 0,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "u9bbB"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "name": "S-Razor and Claw",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "S-Razor and Claw (A2, AP(2))",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "U6Lgm4ha",
+                    "specialRules": [
+                        {
+                            "key": "ap",
+                            "name": "AP",
+                            "type": "ArmyBookRule",
+                            "label": "AP(2)",
+                            "modify": false,
+                            "rating": "2"
+                        }
+                    ],
+                    "dependencies": []
+                }
+            ]
+        }
+    ],
+    "points": 300,
+    "isCloud": false,
+    "modified": "2024-02-12T20:51:22.816Z",
+    "gameSystem": "gff",
+    "competitive": true,
+    "pointsLimit": 300,
+    "unitPreview": null,
+    "campaignMode": true,
+    "narrativeMode": false,
+    "selectedUnitId": "z2CC_",
+    "specialRules": [
+        {
+            "id": 358,
+            "name": "Cluster Grenades",
+            "description": "Whenever this model moves over enemy units, pick one of them and roll one die, on a 6+ it takes 1 hit.",
+            "hasRating": false,
+            "aliasedRuleId": 358
+        },
+        {
+            "id": 48,
+            "name": "Canticles",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) when shooting. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 48
+        },
+        {
+            "id": 505,
+            "name": "Phosphor",
+            "aliasedRuleId": null,
+            "description": "This weapon ignores cover.",
+            "hasRating": false
+        },
+        {
+            "id": 52,
+            "name": "Psalms",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round move +2” on Advance, and +4” on Rush/Charge. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 52
+        },
+        {
+            "id": 126,
+            "name": "Repair",
+            "aliasedRuleId": null,
+            "description": "Once per activation, if within 2” of a model with Tough, roll one die. On a 2+ you may remove D3 wounds from that model.",
+            "hasRating": false
+        },
+        {
+            "id": 164,
+            "name": "Slayer",
+            "aliasedRuleId": null,
+            "description": "This model gets AP(+2) in melee against units where most models have Tough(3) or higher.",
+            "hasRating": false
+        },
+        {
+            "id": 98,
+            "name": "Radiation",
+            "aliasedRuleId": null,
+            "description": "Enemies that roll to block hits from this weapon take one additional wound for each unmodified result of 1 that they roll.",
+            "hasRating": false
+        },
+        {
+            "id": 846,
+            "name": "Taser",
+            "description": "Unmodified rolls of 6 are multiplied by 2 (only the original hit counts as a 6).",
+            "hasRating": false,
+            "aliasedRuleId": 846
+        }
+    ]
+}

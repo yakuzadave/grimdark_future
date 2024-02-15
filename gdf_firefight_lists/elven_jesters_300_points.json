@@ -1,0 +1,1112 @@
+{
+    "id": "iriZFjFDyg7w",
+    "name": "Elven Jesters",
+    "units": [
+        {
+            "id": "Z8Cf2Y3",
+            "key": "ready-eel-veteran",
+            "cost": 85,
+            "name": "Master Jester",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 3,
+            "upgrades": [
+                "F-qtY",
+                "G7bVZ"
+            ],
+            "equipment": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 2,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 2
+                },
+                {
+                    "id": "llqh3cud",
+                    "name": "Master Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Master Shard Pistol (12\", A2, Rending)",
+                    "range": 12,
+                    "attacks": 2,
+                    "weaponId": "riBYHwrT",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "hero",
+                    "name": "Hero",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": "",
+                    "additional": false
+                },
+                {
+                    "key": "tough",
+                    "name": "Tough",
+                    "rating": "3",
+                    "additional": false
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [
+                "yqOjmGn"
+            ],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "99qqP",
+            "selectedUpgrades": [
+                {
+                    "instanceId": "v_foYyou8",
+                    "upgrade": {
+                        "id": "o-madi_",
+                        "uid": "0itSx",
+                        "label": "Upgrade with one",
+                        "options": null,
+                        "isHeroUpgrade": true,
+                        "parentPackageUid": "G7bVZ",
+                        "type": "ArmyBookUpgradeSection",
+                        "variant": "upgrade",
+                        "select": {
+                            "type": "exactly",
+                            "value": 1
+                        }
+                    },
+                    "option": {
+                        "uid": "-bQNR",
+                        "cost": 10,
+                        "type": "ArmyBookUpgradeOption",
+                        "costs": [
+                            {
+                                "unitId": "Z8Cf2Y3",
+                                "cost": 10
+                            },
+                            {
+                                "unitId": "Poir2bw",
+                                "cost": 10
+                            }
+                        ],
+                        "gains": [
+                            {
+                                "name": "Stage Master",
+                                "type": "ArmyBookItem",
+                                "label": "Stage Master (Graceful Brutality)",
+                                "content": [
+                                    {
+                                        "key": "graceful brutality",
+                                        "name": "Graceful Brutality",
+                                        "type": "ArmyBookRule",
+                                        "label": "Graceful Brutality",
+                                        "modify": false,
+                                        "count": 1,
+                                        "dependencies": []
+                                    }
+                                ],
+                                "count": 1,
+                                "dependencies": []
+                            }
+                        ],
+                        "label": "Stage Master (Graceful Brutality)",
+                        "proposedVersion": "2.50",
+                        "parentPackageUid": "G7bVZ",
+                        "parentSectionUid": "0itSx",
+                        "proposedCostHint": [
+                            {
+                                "unitName": "Master Jester",
+                                "newCostPrecise": "12.0",
+                                "newCostRounded": 10,
+                                "isValid": true
+                            },
+                            {
+                                "unitName": "Fool Champion",
+                                "newCostPrecise": "12.0",
+                                "newCostRounded": 10,
+                                "isValid": true
+                            }
+                        ],
+                        "id": "-bQNR"
+                    }
+                }
+            ],
+            "loadout": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 2,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 2
+                },
+                {
+                    "id": "llqh3cud",
+                    "name": "Master Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "Master Shard Pistol (12\", A2, Rending)",
+                    "range": 12,
+                    "attacks": 2,
+                    "weaponId": "riBYHwrT",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "originalCount": 1
+                },
+                {
+                    "name": "Stage Master",
+                    "type": "ArmyBookItem",
+                    "label": "Stage Master (Graceful Brutality)",
+                    "content": [
+                        {
+                            "key": "graceful brutality",
+                            "name": "Graceful Brutality",
+                            "type": "ArmyBookRule",
+                            "label": "Graceful Brutality",
+                            "modify": false,
+                            "count": 1,
+                            "dependencies": []
+                        }
+                    ],
+                    "count": 1,
+                    "dependencies": []
+                }
+            ]
+        },
+        {
+            "id": "d4Z91Se",
+            "cost": 30,
+            "name": "Joker",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 3,
+            "upgrades": [],
+            "equipment": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "Hh8M109Y",
+                    "name": "Exploding Bola",
+                    "type": "ArmyBookWeapon",
+                    "label": "Exploding Bola (12\", A1, Blast(3), Limited)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "Hh8M109Y",
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "limited",
+                            "name": "Limited",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": ""
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "flying",
+                    "name": "Flying",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": [],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "8gfL0",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "Hh8M109Y",
+                    "name": "Exploding Bola",
+                    "type": "ArmyBookWeapon",
+                    "label": "Exploding Bola (12\", A1, Blast(3), Limited)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "Hh8M109Y",
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "limited",
+                            "name": "Limited",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "d4Z91Se",
+            "cost": 30,
+            "name": "Joker",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 3,
+            "upgrades": [],
+            "equipment": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "Hh8M109Y",
+                    "name": "Exploding Bola",
+                    "type": "ArmyBookWeapon",
+                    "label": "Exploding Bola (12\", A1, Blast(3), Limited)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "Hh8M109Y",
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "limited",
+                            "name": "Limited",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": ""
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "flying",
+                    "name": "Flying",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": [],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "4lb5u",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "Hh8M109Y",
+                    "name": "Exploding Bola",
+                    "type": "ArmyBookWeapon",
+                    "label": "Exploding Bola (12\", A1, Blast(3), Limited)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "Hh8M109Y",
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "limited",
+                            "name": "Limited",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "d4Z91Se",
+            "cost": 30,
+            "name": "Joker",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 3,
+            "upgrades": [],
+            "equipment": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "Hh8M109Y",
+                    "name": "Exploding Bola",
+                    "type": "ArmyBookWeapon",
+                    "label": "Exploding Bola (12\", A1, Blast(3), Limited)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "Hh8M109Y",
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "limited",
+                            "name": "Limited",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": ""
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "flying",
+                    "name": "Flying",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": [],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "85Klh",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "Hh8M109Y",
+                    "name": "Exploding Bola",
+                    "type": "ArmyBookWeapon",
+                    "label": "Exploding Bola (12\", A1, Blast(3), Limited)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "Hh8M109Y",
+                    "specialRules": [
+                        {
+                            "key": "blast",
+                            "name": "Blast",
+                            "rating": "3",
+                            "modify": false
+                        },
+                        {
+                            "key": "limited",
+                            "name": "Limited",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "EgHVmFc",
+            "cost": 20,
+            "name": "Fool",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [],
+            "equipment": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": ""
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": [],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "CQDsn",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "EgHVmFc",
+            "cost": 20,
+            "name": "Fool",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 5,
+            "upgrades": [],
+            "equipment": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": ""
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledUpgradeSections": [],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "AexAV",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "ewD4pcNm",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                },
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "CPnUv7L",
+            "cost": 30,
+            "name": "Jester",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 3,
+            "upgrades": [
+                "D1"
+            ],
+            "equipment": [
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "_lbiN",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": ""
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "57xex",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "_lbiN",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                }
+            ]
+        },
+        {
+            "id": "CPnUv7L",
+            "cost": 30,
+            "name": "Jester",
+            "size": 1,
+            "valid": true,
+            "defense": 5,
+            "quality": 3,
+            "upgrades": [
+                "D1"
+            ],
+            "equipment": [
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "_lbiN",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                }
+            ],
+            "specialRules": [
+                {
+                    "key": "dodge",
+                    "name": "Dodge",
+                    "rating": ""
+                },
+                {
+                    "key": "fast",
+                    "name": "Fast",
+                    "rating": ""
+                },
+                {
+                    "key": "furious",
+                    "name": "Furious",
+                    "rating": ""
+                },
+                {
+                    "key": "stealth",
+                    "name": "Stealth",
+                    "rating": ""
+                },
+                {
+                    "key": "strider",
+                    "name": "Strider",
+                    "rating": ""
+                }
+            ],
+            "disabledSections": [],
+            "disabledUpgradeSections": [],
+            "armyId": "nyh41t82jugcdq8m",
+            "xp": 0,
+            "notes": null,
+            "traits": [],
+            "combined": false,
+            "joinToUnit": null,
+            "selectionId": "5UcQG",
+            "selectedUpgrades": [],
+            "loadout": [
+                {
+                    "id": "llqh3cud",
+                    "name": "Shard Pistol",
+                    "type": "ArmyBookWeapon",
+                    "label": "Shard Pistol (12\", A1, Rending)",
+                    "range": 12,
+                    "attacks": 1,
+                    "weaponId": "llqh3cud",
+                    "specialRules": [
+                        {
+                            "key": "rending",
+                            "name": "Rending",
+                            "rating": "",
+                            "modify": false
+                        }
+                    ],
+                    "count": 1,
+                    "originalCount": 1
+                },
+                {
+                    "id": "_lbiN",
+                    "name": "CCW",
+                    "type": "ArmyBookWeapon",
+                    "count": 1,
+                    "label": "CCW (A2)",
+                    "range": 0,
+                    "attacks": 2,
+                    "weaponId": "83nhlNHF",
+                    "specialRules": [],
+                    "originalCount": 1
+                }
+            ]
+        }
+    ],
+    "points": 285,
+    "isCloud": false,
+    "modified": "2024-02-15T23:04:16.504Z",
+    "gameSystem": "gff",
+    "competitive": true,
+    "pointsLimit": 300,
+    "unitPreview": null,
+    "campaignMode": false,
+    "narrativeMode": false,
+    "selectedUnitId": "5UcQG",
+    "specialRules": [
+        {
+            "id": 376,
+            "name": "Dodge",
+            "description": "Enemies get -1 to hit in melee when attacking units where all models have this rule.",
+            "hasRating": false,
+            "aliasedRuleId": 376
+        },
+        {
+            "id": 47,
+            "name": "Apex Killers",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round get AP(+1) in melee. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 47
+        },
+        {
+            "id": 132,
+            "name": "Very Fast",
+            "aliasedRuleId": null,
+            "description": "Moves +4” when using Advance, and +8” when using Rush/Charge.",
+            "hasRating": false
+        },
+        {
+            "id": 97,
+            "name": "Takedown",
+            "aliasedRuleId": null,
+            "description": "Once per game, when this model attacks in melee, you may pick one model in the unit as its target, and make 1 attack at Quality 2+ with AP(1) and Deadly(3), which is resolved as if it's a unit of 1.",
+            "hasRating": false
+        },
+        {
+            "id": 220,
+            "name": "Graceful Brutality",
+            "description": "This model and up to 3 friendly units that are within 12” at the beginning of the round may move by up to 3” after shooting. This effect lasts until the end of the round.",
+            "hasRating": false,
+            "aliasedRuleId": 220
+        },
+        {
+            "id": 63,
+            "name": "Speed Boost",
+            "description": "Moves +2” when using Advance, and +4” when using Rush/Charge.",
+            "hasRating": false,
+            "aliasedRuleId": 63
+        }
+    ]
+}
